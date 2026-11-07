@@ -23,6 +23,20 @@ author: egern-mirror / curated
 homepage: https://github.com/tuohai57/egern-mirror/tree/main/curated
 
 rules:
+  # 字节系 HTTPDNS —— 被「HTTPDNS 拦截器」模块的 domain_keyword: httpdns 命中，
+  # 会在 DNS/HTTPDNS 层被封死，导致抖音/头条系 App 网络异常。本模块排第 1 位，先命中即放行。
+  - domain:
+      match: httpdns.volcengineapi.com
+      policy: DIRECT
+      name: 字节 HTTPDNS 1
+  - domain:
+      match: httpdns.volcengine.com
+      policy: DIRECT
+      name: 字节 HTTPDNS 2
+  - domain_suffix:
+      match: bdurl.net
+      policy: DIRECT
+      name: 字节 bdurl
 
   # ---------------------------------------------------------------------------
   # A 组：默认启用 —— 拦了会直接坏功能，且与"去广告"目标不冲突
@@ -153,3 +167,4 @@ rules:
       match: ad.12306.cn
       policy: REJECT
       name: 12306 开屏广告（压住模块的 DIRECT）
+

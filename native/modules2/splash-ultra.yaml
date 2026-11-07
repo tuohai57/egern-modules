@@ -1,6 +1,4 @@
-# Egern 原生模块 · 由 Loon/Surge 格式转换
-# 源: https://yfamilys.com/module/adultraplus.sgmodule
-# 源格式: sgmodule
+# Egern 原生模块 · dict.js 已转为原生 body_rewrites（filter: . = {}）
 name: APP启动页去广告ultra+
 description: APP启动页去广告融合ultra+
 author: Mixed
@@ -6157,11 +6155,6 @@ scriptings:
     script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/edd8d08e33b97088.js
     body_required: true
 - http_response:
-    name: dict
-    match: ^https?:\/\/apiproxy\.zuche\.com\/resource\/cardes\/toufang\/marketing
-    script_url: https://raw.githubusercontent.com/ddgksf2013/Scripts/refs/heads/master/dict.js
-    body_required: true
-- http_response:
     name: zheye.min2
     match: ^https?:\/\/api\.zhihu\.com\/topstory\/hot-lists(\?|\/)
     script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/646bbecb09393633.js
@@ -6374,11 +6367,6 @@ scriptings:
     name: caiyun_json11
     match: ^https?:\/\/api\.caiyunapp\.com\/v\d\/activity
     script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/023ff898ae3adb94.js
-    body_required: true
-- http_response:
-    name: dict2
-    match: ^https?:\/\/api\.369cx\.cn\/v\d\/Splash\/GetSplashAd
-    script_url: https://raw.githubusercontent.com/ddgksf2013/Scripts/refs/heads/master/dict.js
     body_required: true
 - http_response:
     name: rrtv_json11
@@ -8378,3 +8366,10 @@ mitm:
   - zt-app.go189.cn
   - ztoread.ziroom.com
   - zua.zhidiantianxia.cn
+body_rewrites:
+- response_jq:
+    match: ^https?:\/\/apiproxy\.zuche\.com\/resource\/cardes\/toufang\/marketing
+    filter: . = {}
+- response_jq:
+    match: ^https?:\/\/api\.369cx\.cn\/v\d\/Splash\/GetSplashAd
+    filter: . = {}
