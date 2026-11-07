@@ -6353,17 +6353,17 @@ scriptings:
 - http_response:
     name: coolapk2
     match: ^https?:\/\/api\.coolapk\.com\/v6\/page\/dataList\?
-    script_url: https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/coolapk.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/d12caced89d4ee70.js
     body_required: true
 - http_response:
     name: coolapk3
     match: ^https?:\/\/api\.coolapk\.com\/v6\/main\/(dataList|indexV8|init)
-    script_url: https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/coolapk.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/d12caced89d4ee70.js
     body_required: true
 - http_response:
     name: coolapk4
     match: ^https?:\/\/api\.coolapk\.com\/v6\/feed\/(detail|replyList)\?
-    script_url: https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/coolapk.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/d12caced89d4ee70.js
     body_required: true
 - http_response:
     name: coolapk5
@@ -6493,82 +6493,82 @@ scriptings:
 - http_response:
     name: redbook.ads
     match: ^https?:\/\/[a-z]+\.xiaohongshu\.com\/api\/sns\/v\d+\/system_service\/splash_config
-    script_url: https://royal-block-f6b1.q00.workers.dev/scripts/redbook.ads.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/7ad1aaf35b5a4f92.js
     body_required: true
 - http_response:
     name: redbook.ads2
     match: ^https?:\/\/[a-z]+\.xiaohongshu\.com\/api\/sns\/v\d+\/system_service\/config\?
-    script_url: https://royal-block-f6b1.q00.workers.dev/scripts/redbook.ads.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/7ad1aaf35b5a4f92.js
     body_required: true
 - http_response:
     name: redbook.ads3
     match: ^https?:\/\/[a-z]+\.xiaohongshu\.com\/api\/sns\/v\d+\/search\/trending
-    script_url: https://royal-block-f6b1.q00.workers.dev/scripts/redbook.ads.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/7ad1aaf35b5a4f92.js
     body_required: true
 - http_response:
     name: redbook.ads4
     match: ^https?:\/\/[a-z]+\.xiaohongshu\.com\/api\/sns\/v\d+\/search\/notes\?
-    script_url: https://royal-block-f6b1.q00.workers.dev/scripts/redbook.ads.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/7ad1aaf35b5a4f92.js
     body_required: true
 - http_response:
     name: redbook.ads5
     match: ^https?:\/\/[a-z]+\.xiaohongshu\.com\/api\/sns\/v\d+\/search\/hot_list
-    script_url: https://royal-block-f6b1.q00.workers.dev/scripts/redbook.ads.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/7ad1aaf35b5a4f92.js
     body_required: true
 - http_response:
     name: redbook.ads6
     match: ^https?:\/\/[a-z]+\.xiaohongshu\.com\/api\/sns\/v\d+\/search\/hint
-    script_url: https://royal-block-f6b1.q00.workers.dev/scripts/redbook.ads.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/7ad1aaf35b5a4f92.js
     body_required: true
 - http_response:
     name: redbook.ads7
     match: ^https?:\/\/[a-z]+\.xiaohongshu\.com\/api\/sns\/v\d+\/note\/widgets
-    script_url: https://royal-block-f6b1.q00.workers.dev/scripts/redbook.ads.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/7ad1aaf35b5a4f92.js
     body_required: true
 - http_response:
     name: redbook.ads8
     match: ^https?:\/\/[a-z]+\.xiaohongshu\.com\/api\/sns\/v\d+\/note\/videofeed\?
-    script_url: https://royal-block-f6b1.q00.workers.dev/scripts/redbook.ads.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/7ad1aaf35b5a4f92.js
     body_required: true
 - http_response:
     name: redbook.ads9
     match: ^https?:\/\/[a-z]+\.xiaohongshu\.com\/api\/sns\/v\d+\/note\/video\/save
-    script_url: https://royal-block-f6b1.q00.workers.dev/scripts/redbook.ads.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/7ad1aaf35b5a4f92.js
     body_required: true
 - http_response:
     name: redbook.ads10
     match: ^https?:\/\/[a-z]+\.xiaohongshu\.com\/api\/sns\/v\d+\/note\/tabfeed
-    script_url: https://royal-block-f6b1.q00.workers.dev/scripts/redbook.ads.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/7ad1aaf35b5a4f92.js
     body_required: true
 - http_response:
     name: redbook.ads11
     match: ^https?:\/\/[a-z]+\.xiaohongshu\.com\/api\/sns\/v\d+\/note\/redtube\?
-    script_url: https://royal-block-f6b1.q00.workers.dev/scripts/redbook.ads.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/7ad1aaf35b5a4f92.js
     body_required: true
 - http_response:
     name: redbook.ads12
     match: ^https?:\/\/[a-z]+\.xiaohongshu\.com\/api\/sns\/v\d+\/note\/live_photo\/save
-    script_url: https://royal-block-f6b1.q00.workers.dev/scripts/redbook.ads.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/7ad1aaf35b5a4f92.js
     body_required: true
 - http_response:
     name: redbook.ads13
     match: ^https?:\/\/[a-z]+\.xiaohongshu\.com\/api\/sns\/v\d+\/note\/imagefeed
-    script_url: https://royal-block-f6b1.q00.workers.dev/scripts/redbook.ads.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/7ad1aaf35b5a4f92.js
     body_required: true
 - http_response:
     name: redbook.ads14
     match: ^https?:\/\/[a-z]+\.xiaohongshu\.com\/api\/sns\/v\d+\/note\/feed\?
-    script_url: https://royal-block-f6b1.q00.workers.dev/scripts/redbook.ads.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/7ad1aaf35b5a4f92.js
     body_required: true
 - http_response:
     name: redbook.ads15
     match: ^https?:\/\/[a-z]+\.xiaohongshu\.com\/api\/sns\/v\d+\/homefeed\?
-    script_url: https://royal-block-f6b1.q00.workers.dev/scripts/redbook.ads.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/7ad1aaf35b5a4f92.js
     body_required: true
 - http_response:
     name: redbook.ads16
     match: ^https?:\/\/[a-z]+\.xiaohongshu\.com\/api\/sns\/v\d+\/homefeed\/categories
-    script_url: https://royal-block-f6b1.q00.workers.dev/scripts/redbook.ads.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/7ad1aaf35b5a4f92.js
     body_required: true
 - http_response:
     name: cainiao_json

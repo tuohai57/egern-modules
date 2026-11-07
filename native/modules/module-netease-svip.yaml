@@ -79,35 +79,35 @@ scriptings:
 - http_request:
     name: 皮肤
     match: ^https?:\/\/interface\d?\.music\.163\.com\/eapi\/playermode\/
-    script_url: https://he2o.vercel.app/Resource/-Rewrite/anyehttp/wyy-s.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/3b4e22dd5bbe96f3.js
 - http_request:
     name: 歌曲、听书
     match: ^https?:\/\/interface\d?\.music\.163\.com\/eapi\/search\/(?:complex\/page|complex\/rec\/song\/get|song\/list\/page)
-    script_url: https://he2o.vercel.app/Resource/-Rewrite/anyehttp/wyy-s.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/3b4e22dd5bbe96f3.js
 - http_request:
     name: 歌曲、听书
     match: ^https?:\/\/interface\d?\.music\.163\.com\/eapi\/v3\/song\/detail
-    script_url: https://he2o.vercel.app/Resource/-Rewrite/anyehttp/wyy-s.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/3b4e22dd5bbe96f3.js
 - http_request:
     name: 歌曲、听书
     match: ^https?:\/\/interface\d?\.music\.163\.com\/eapi\/song\/(?:chorus|enhance\/|play\/|type\/detail\/get)
-    script_url: https://he2o.vercel.app/Resource/-Rewrite/anyehttp/wyy-s.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/3b4e22dd5bbe96f3.js
 - http_request:
     name: 歌曲、听书
     match: ^https?:\/\/interface\d?\.music\.163\.com\/eapi\/(?:v1\/artist\/top\/song|v3\/discovery\/recommend\/songs)
-    script_url: https://he2o.vercel.app/Resource/-Rewrite/anyehttp/wyy-s.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/3b4e22dd5bbe96f3.js
 - http_request:
     name: 等级
     match: ^https?:\/\/interface\d?\.music\.163\.com\/eapi\/vipnewcenter\/app\/resource\/newaccountpage
-    script_url: https://he2o.vercel.app/Resource/-Rewrite/anyehttp/wyy-s.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/3b4e22dd5bbe96f3.js
 - http_request:
     name: 首页歌单
     match: ^https?:\/\/interface\d?\.music\.163\.com\/w?e?api\/(homepage\/|v6\/)?playlist\/(?!(?:delete|subscribe|unsubscribe))
-    script_url: https://he2o.vercel.app/Resource/-Rewrite/anyehttp/wyy-s.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/3b4e22dd5bbe96f3.js
 - http_request:
     name: 音质
     match: ^https?:\/\/interface\d?\.music\.163\.com\/eapi\/vipauth\/app\/auth\/(soundquality\/)?query
-    script_url: https://he2o.vercel.app/Resource/-Rewrite/anyehttp/wyy-s.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/3b4e22dd5bbe96f3.js
 mitm:
   hostnames:
   - interface*.music.163.com

@@ -66,51 +66,51 @@ scriptings:
 - http_response:
     name: 小红书-响应
     match: (?i)^https:\/\/edith\.(?:xiaohongshu|rnote)\.com\/api\/sns\/v1\/system\/service\/ui\/config\?
-    script_url: https://rucu6.pages.dev/Scripts/xiaohongshu.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/1bdab9089a6fc1e1.js
 - http_response:
     name: 小红书-响应
     match: (?i)^https:\/\/edith\.(?:xiaohongshu|rnote)\.com\/api\/sns\/v1\/system_service\/config\?
-    script_url: https://rucu6.pages.dev/Scripts/xiaohongshu.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/1bdab9089a6fc1e1.js
 - http_response:
     name: 小红书-响应
     match: (?i)^https:\/\/edith\.(?:xiaohongshu|rnote)\.com\/api\/sns\/v2\/system_service\/splash_config
-    script_url: https://rucu6.pages.dev/Scripts/xiaohongshu.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/1bdab9089a6fc1e1.js
 - http_response:
     name: 小红书-响应
     match: (?i)^https:\/\/edith\.(?:xiaohongshu|rnote)\.com\/api\/sns\/v2\/(?:note\/widgets|user\/followings\/followfeed)
-    script_url: https://rucu6.pages.dev/Scripts/xiaohongshu.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/1bdab9089a6fc1e1.js
 - http_response:
     name: 小红书-响应
     match: (?i)^https:\/\/edith\.(?:xiaohongshu|rnote)\.com\/api\/sns\/v5\/recommend\/user\/follow_recommend\?
-    script_url: https://rucu6.pages.dev/Scripts/xiaohongshu.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/1bdab9089a6fc1e1.js
 - http_response:
     name: 小红书-响应
     match: (?i)^https:\/\/(?:edith|rec|www)\.(?:xiaohongshu|rnote)\.com\/api\/sns\/v6\/homefeed\?
-    script_url: https://loon.103516.xyz/Script/RedNote/RedNote.feedtime.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/80ce0b69a1eade8b.js
 - http_response:
     name: 小红书-响应
     match: (?i)^https:\/\/(?:edith|rec|www)\.(?:xiaohongshu|rnote)\.com\/api\/sns\/v4\/followfeed\?
-    script_url: https://rucu6.pages.dev/Scripts/xiaohongshu.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/1bdab9089a6fc1e1.js
 - http_response:
     name: 小红书-响应
     match: (?i)^https:\/\/(?:edith|rec|www)\.(?:xiaohongshu|rnote)\.com\/api\/sns\/v6\/homefeed\?
-    script_url: https://rucu6.pages.dev/Scripts/xiaohongshu.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/1bdab9089a6fc1e1.js
 - http_response:
     name: 小红书-响应
     match: (?i)^https:\/\/(?:edith|so)\.(?:xiaohongshu|rnote)\.com\/api\/sns\/v10\/search\/notes\?
-    script_url: https://rucu6.pages.dev/Scripts/xiaohongshu.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/1bdab9089a6fc1e1.js
 - http_response:
     name: 小红书-响应
     match: (?i)^https:\/\/(?:edith|rec|www)\.(?:xiaohongshu|rnote)\.com\/api\/sns\/v1\/note\/(?:imagefeed|live_photo\/save)
-    script_url: https://rucu6.pages.dev/Scripts/xiaohongshu.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/1bdab9089a6fc1e1.js
 - http_response:
     name: 小红书-响应
     match: (?i)^https:\/\/(?:edith|rec|www)\.(?:xiaohongshu|rnote)\.com\/api\/sns\/(?:v2\/note\/feed|v3\/note\/videofeed)
-    script_url: https://rucu6.pages.dev/Scripts/xiaohongshu.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/1bdab9089a6fc1e1.js
 - http_response:
     name: 小红书-响应
     match: (?i)^https:\/\/(?:edith|rec|www)\.(?:xiaohongshu|rnote)\.com\/api\/sns\/(?:v4\/note\/videofeed|v10\/note\/video\/save)
-    script_url: https://rucu6.pages.dev/Scripts/xiaohongshu.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/1bdab9089a6fc1e1.js
 - http_response:
     name: 小红书-响应
     match: (?i)^https:\/\/edith\.(?:xiaohongshu|rnote)\.com\/api\/sns\/(?:v1\/interaction\/comment\/video\/download|v5\/note\/comment\/list|v3\/note\/comment\/sub_comments)
