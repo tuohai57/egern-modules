@@ -1,0 +1,144 @@
+# Egern 原生模块 · 由 Loon/Surge 格式转换
+# 源: https://github.com/BiliUniverse/ADBlock/releases/latest/download/BiliBili.ADBlock.sgmodule
+# 源格式: sgmodule
+name: '📺 BiliBili: 🛡️ ADBlock'
+description: 哔哩哔哩：去广告\n自定义去除APP内界面元素
+author: ClydeTime[https://github.com/ClydeTime],VirgilClyne[https://github.com/VirgilClyne],app2smile[https://github.com/app2smile],RuCu6[https://github.com/RuCu6],Maasea[https://github.com/Maasea]
+homepage: https://biliverse.github.io/guide/ad-block
+icon: https://github.com/Biliverse/ADBlock/raw/main/src/assets/icon_rounded.png
+open_url: http://boxjs.com/#/app/BiliBili.ADBlock
+map_locals:
+- match: ^https:\/\/(?:biliverse\.github\.io|app\.bilibili\.com)\/api\/ADBlock(?:\?.*)?$
+  status_code: 200
+  headers:
+    '"Content-Type': application/json;
+  body: https://github.com/Biliverse/ADBlock/releases/download/v0.7.5/BiliBili.ADBlock.boxjs.json
+- match: ^https?:\/\/(grpc\.biliapi\.net|app\.biliapi\.net|app\.bilibili\.com|app\.biliapi\.com)\/bilibili\.app\.interface\.v1\.Search\/DefaultWords$
+  status_code: 200
+  headers:
+    Content-Type: application/grpc
+    Content-Length: '5'
+    grpc-status: '0'
+  body: ''
+- match: ^https?:\/\/api\.vc\.bilibili\.com\/search_svr\/v\d\/Search\/recommend_words
+  body: '{}'
+- match: ^https?:\/\/api\.vc\.bilibili\.com\/topic_svr\/v1\/topic_svr
+  body: '{}'
+- match: ^https?:\/\/api\.vc\.bilibili\.com\/dynamic_svr\/v1\/dynamic_svr\/mix_uplist
+  body: '{}'
+- match: ^https?:\/\/manga\.bilibili\.com\/twirp\/comic\.v\d\.Comic\/Flash
+  body: '{}'
+- match: ^https?:\/\/manga\.bilibili\.com\/twirp\/comic\.v\d\.Comic\/ListFlash
+  body: '{}'
+- match: ^https?:\/\/api\.live\.bilibili\.com\/xlive\/e-commerce-interface\/v1\/ecommerce-user\/get_shopping_info\?
+  body: '{}'
+- match: ^https:\/\/api\.bilibili\.com\/pgc\/activity\/deliver\/material\/receive\?
+  headers:
+    content-type: application/json
+  body: '{"code":0,"data":{"closeType":"close_win","container":[],"showTime":""},"message":"success"}'
+scriptings:
+- http_request:
+    name: 📺 BiliBili.ADBlock.feed.index.request.json
+    match: ^https?:\/\/app\.bili(bili\.com|api\.net)\/x\/v2\/feed\/index\?
+    script_url: https://github.com/Biliverse/ADBlock/releases/download/v0.7.5/request.bundle.js
+- http_request:
+    name: 📺 BiliBili.ADBlock.privacy.request
+    match: ^https?:\/\/(cm\.bilibili\.com\/cm\/api\/(conversion\/mobile\/v2|fees\/wise)|adtrack\.qianwen\.com\/v3\/ad\/(show\/)?bilibili|tkio-redirect\.solar-engine\.com\/receive\/turl\/)
+    script_url: https://github.com/Biliverse/ADBlock/releases/download/v0.7.5/request.bundle.js
+- http_request:
+    name: 📺 BiliBili.ADBlock.dm.request.grpc
+    match: ^https:\/\/(grpc|app)\.bili(bili\.com|api\.net)\/bilibili\.community\.service\.dm\.v1\.DM\/DmSegMobile$
+    script_url: https://github.com/Biliverse/ADBlock/releases/download/v0.7.5/request.bundle.js
+    body_required: true
+    binary_body: true
+    max_size: 65536
+- http_response:
+    name: 📺 BiliBili.ADBlock.response.json
+    match: ^https?:\/\/app\.bili(bili\.com|api\.net)\/x\/v2\/(splash\/(brand\/list|event\/list2|list|show)|feed\/index(\/(relate\/)?story)?|search\/square)
+    script_url: https://github.com/Biliverse/ADBlock/releases/download/v0.7.5/response.bundle.js
+    body_required: true
+- http_response:
+    name: 📺 BiliBili.ADBlock.response.json
+    match: ^https?:\/\/api\.bili(bili\.com|api\.net)\/x\/(web-interface\/wbi\/index\/top\/feed\/rcmd|vip\/ads\/materials)\?
+    script_url: https://github.com/Biliverse/ADBlock/releases/download/v0.7.5/response.bundle.js
+    body_required: true
+- http_response:
+    name: 📺 BiliBili.ADBlock.pgc.page.response.json
+    match: ^https?:\/\/api\.bili(bili\.com|api\.net)\/pgc\/page\/(bangumi|cinema\/tab\?)
+    script_url: https://github.com/Biliverse/ADBlock/releases/download/v0.7.5/response.bundle.js
+    body_required: true
+- http_response:
+    name: 📺 BiliBili.ADBlock.xlive.response.json
+    match: ^https?:\/\/api\.live\.bilibili\.com\/xlive\/(app-room\/v1\/index\/getInfoByRoom|app-interface\/v2\/(index\/feed|room\/recList))
+    script_url: https://github.com/Biliverse/ADBlock/releases/download/v0.7.5/response.bundle.js
+    body_required: true
+- http_response:
+    name: 📺 BiliBili.ADBlock.view.response.grpc
+    match: ^https?:\/\/(grpc|app)\.bili(bili\.com|api\.net)\/bilibili\.app\.(view\.v1\.View\/(View|TFInfo|RelatesFeed|PlayerRelates|ViewProgress)|viewunite\.v1\.View\/(View|RelatesFeed|AIRelateAsync|ViewProgress|PlayPause|ViewEndPage)|playerunite\.v1\.Player\/PlayViewUnite)$
+    script_url: https://github.com/Biliverse/ADBlock/releases/download/v0.7.5/response.bundle.js
+    body_required: true
+    binary_body: true
+    max_size: 262144
+- http_response:
+    name: 📺 BiliBili.ADBlock.dynamic.response.grpc
+    match: ^https?:\/\/(grpc|app)\.bili(bili\.com|api\.net)\/bilibili\.app\.dynamic\.v2\.Dynamic\/Dyn(All|Video)(Personal)?$
+    script_url: https://github.com/Biliverse/ADBlock/releases/download/v0.7.5/response.bundle.js
+    body_required: true
+    binary_body: true
+- http_response:
+    name: 📺 BiliBili.ADBlock.playurl.response.grpc
+    match: ^https?:\/\/(grpc|app)\.bili(bili\.com|api\.net)\/bilibili\.app\.playurl\.v1\.PlayURL\/PlayView$
+    script_url: https://github.com/Biliverse/ADBlock/releases/download/v0.7.5/response.bundle.js
+    body_required: true
+    binary_body: true
+- http_response:
+    name: 📺 BiliBili.ADBlock.search.response.grpc
+    match: ^https?:\/\/(grpc|app)\.bili(bili\.com|api\.net)\/bilibili\.polymer\.app\.search\.v1\.Search\/SearchAll$
+    script_url: https://github.com/Biliverse/ADBlock/releases/download/v0.7.5/response.bundle.js
+    body_required: true
+    binary_body: true
+- http_response:
+    name: 📺 BiliBili.ADBlock.dm.response.grpc
+    match: ^https:\/\/(grpc|app)\.bili(bili\.com|api\.net)\/bilibili\.community\.service\.dm\.v1\.DM\/(DmView|DmSegMobile)
+    script_url: https://github.com/Biliverse/ADBlock/releases/download/v0.7.5/response.bundle.js
+    body_required: true
+    binary_body: true
+- http_response:
+    name: 📺 BiliBili.ADBlock.interface.response.grpc
+    match: ^https:\/\/(grpc|app)\.bili(bili\.com|api\.net)\/bilibili\.app\.interface\.v1\.Teenagers\/ModeStatus
+    script_url: https://github.com/Biliverse/ADBlock/releases/download/v0.7.5/response.bundle.js
+    body_required: true
+    binary_body: true
+- http_response:
+    name: 📺 BiliBili.ADBlock.reply.response.grpc
+    match: ^https:\/\/(grpc|app)\.bili(bili\.com|api\.net)\/bilibili\.main\.community\.reply\.v1\.Reply\/(MainList|DetailList|ReplyInfo)$
+    script_url: https://github.com/Biliverse/ADBlock/releases/download/v0.7.5/response.bundle.js
+    body_required: true
+    binary_body: true
+- http_response:
+    name: 📺 BiliBili.ADBlock.reply.v2.response.grpc
+    match: ^https:\/\/(grpc|app)\.bili(bili\.com|api\.net)\/bilibili\.main\.community\.reply\.v2\.Reply\/SubjectDescription$
+    script_url: https://github.com/Biliverse/ADBlock/releases/download/v0.7.5/response.bundle.js
+    body_required: true
+    binary_body: true
+- http_response:
+    name: 📺 BiliBili.ADBlock.pgc.response.grpc
+    match: ^https:\/\/(grpc|app)\.bili(bili\.com|api\.net)\/bilibili\.pgc\.gateway\.player\.v2\.PlayURL\/PlayView$
+    script_url: https://github.com/Biliverse/ADBlock/releases/download/v0.7.5/response.bundle.js
+    body_required: true
+    binary_body: true
+mitm:
+  hostnames:
+  - biliverse.github.io
+  - manga.bilibili.com
+  - api.live.bilibili.com
+  - api.vc.bilibili.com
+  - app.bilibili.com
+  - app.biliapi.net
+  - app.biliapi.com
+  - api.bilibili.com
+  - api.biliapi.net
+  - grpc.biliapi.net
+  - cm.bilibili.com
+  - adtrack.qianwen.com
+  - tkio-redirect.solar-engine.com
