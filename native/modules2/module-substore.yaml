@@ -78,7 +78,7 @@ scriptings:
   - http_request:
       name: Sub-Store Core
       match: ^https?:\/\/sub\.store\/((download)|api\/(preview|sync|(utils\/node-info)))
-      script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/22f8c0eee01b20b8.js
+      script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/22f8c0eee01b20b8.js
       body_required: true
       max_size: 999999999
       timeout: 900
@@ -87,7 +87,7 @@ scriptings:
   - http_request:
       name: Sub-Store Simple
       match: ^https?:\/\/sub\.store
-      script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/2664327888149c09.js
+      script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/2664327888149c09.js
       body_required: true
       max_size: 999999999
       timeout: 900
@@ -97,7 +97,7 @@ scriptings:
       name: "{{{sync}}}"
       disabled: {{{sync_disabled}}}
       cron: "{{{cronexp}}}"
-      script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/0a57657a80626e81.js
+      script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/0a57657a80626e81.js
       timeout: 900
       arguments:
         _compat.$argument: "sync_success_notify={{{sync_success_notify}}}"
@@ -105,7 +105,7 @@ scriptings:
       name: "{{{produce}}}"
       disabled: {{{produce_disabled}}}
       cron: "{{{produce_cronexp}}}"
-      script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/0a57657a80626e81.js
+      script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/0a57657a80626e81.js
       timeout: 900
       arguments:
         _compat.$argument: "sub={{{produce_sub}}}&col={{{produce_col}}}"

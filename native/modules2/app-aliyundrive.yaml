@@ -22,11 +22,11 @@ scriptings:
 - http_response:
     name: 阿里云盘去广告-响应
     match: (?i)^https:\/\/(biz)?api\.alipan\.com\/apps\/v\d\/users?\/home\/(news|widgets)
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/fc4aa26e205b02ea.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/fc4aa26e205b02ea.js
 - http_response:
     name: 阿里云盘去广告-响应
     match: (?i)^https:\/\/member\.alipan\.com\/v1\/users\/onboard_list
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/fc4aa26e205b02ea.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/fc4aa26e205b02ea.js
 mitm:
   hostnames:
   - api.alipan.com

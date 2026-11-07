@@ -2089,287 +2089,287 @@ scriptings:
 - http_response:
     name: 广告拦截合集-响应
     match: (?i)^https?:\/\/api\.u51\.com\/liabilitygateway\/api\/v\d\/homepage\/liabilityline
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/24287bfcb6367558.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/24287bfcb6367558.js
 - http_response:
     name: 广告拦截合集-响应
     match: (?i)^https?:\/\/api\.u51\.com\/generic-config-gateway\/api\/v\d\/guanjia\/me-tab2\/config
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/24287bfcb6367558.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/24287bfcb6367558.js
 - http_response:
     name: 广告拦截合集-响应
     match: (?i)^https?:\/\/[a-zA-Z0-9-]+(\.[a-zA-Z0-9-]+){1,3}(:\d+)?\/api\/v\d\/movie\/index_recommend
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/62a51c42b48abd4f.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/62a51c42b48abd4f.js
 - http_response:
     name: 广告拦截合集-响应
     match: (?i)^https:\/\/app-v1\.ecoliving168\.com\/api\/v1\/movie\/index_recommend\?
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/5a632f43cd320e86.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/5a632f43cd320e86.js
 - http_response:
     name: 广告拦截合集-响应
     match: (?i)^https:\/\/guide-acs\.m\.taobao\.com\/gw\/mtop\.cainiao\.guoguo\.nbnetflow\.ads\.mshow
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/e3dec81199b92b13.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/e3dec81199b92b13.js
 - http_response:
     name: 广告拦截合集-响应
     match: (?i)^https:\/\/guide-acs\.m\.taobao\.com\/gw\/mtop\.taobao\.(cloudvideo\.video\.query|wireless\.home\.splash\.awesome\.get)
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/d564496d0d24d93c.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/d564496d0d24d93c.js
 - http_response:
     name: 广告拦截合集-响应
     match: (?i)^https:\/\/poplayer\.template\.alibaba\.com\/\w+\.json
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/d564496d0d24d93c.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/d564496d0d24d93c.js
 - http_response:
     name: 广告拦截合集-响应
     match: (?i)^https:\/\/api\.boohee\.com\/meta-interface\/v2\/index\?
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/8a4f2249f53b8faa.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/8a4f2249f53b8faa.js
 - http_response:
     name: 广告拦截合集-响应
     match: (?i)^https:\/\/api\.boohee\.com\/meta-interface\/v1\/index\/plaza\?
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/8a4f2249f53b8faa.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/8a4f2249f53b8faa.js
 - http_response:
     name: 广告拦截合集-响应
     match: (?i)^https:\/\/api\.boohee\.com\/open-interface\/v1\/string\/market_page\?title=metabolism_config$
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/8a4f2249f53b8faa.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/8a4f2249f53b8faa.js
 - http_response:
     name: 广告拦截合集-响应
     match: (?i)^https?:\/\/manga\.bilibili\.com\/twirp\/user\.v\d\.User\/(?>UCenterConf|GetInitInfo)
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/0bcb5d5571a4a939.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/0bcb5d5571a4a939.js
 - http_response:
     name: 广告拦截合集-响应
     match: (?i)^https?:\/\/manga\.bilibili\.com\/twirp\/comic\.v\d\.Home\/HomeFeed
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/0bcb5d5571a4a939.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/0bcb5d5571a4a939.js
 - http_response:
     name: 广告拦截合集-响应
     match: (?i)^https?:\/\/manga\.bilibili\.com\/twirp\/comic\.v\d\.Comment\/Main
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/0bcb5d5571a4a939.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/0bcb5d5571a4a939.js
 - http_response:
     name: 广告拦截合集-响应
     match: (?i)^https?:\/\/manga\.bilibili\.com\/twirp\/comic\.v\d\.Comic\/GetCommonBanner
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/0bcb5d5571a4a939.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/0bcb5d5571a4a939.js
 - http_response:
     name: 广告拦截合集-响应
     match: (?i)^https?:\/\/social\.blued\.cn\/users\/.+\/more\/ios\?v=2
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/f13da45a7a95812d.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/f13da45a7a95812d.js
 - http_response:
     name: 广告拦截合集-响应
     match: (?i)^https?:\/\/gg\.caixin\.com\/s\?z=caixin&op=1&c=3362
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/9b1fbd5ef1a4986f.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/9b1fbd5ef1a4986f.js
 - http_response:
     name: 广告拦截合集-响应
     match: (?i)^https?:\/\/img\.meituan\.net\/(?>dpmobile|goodsawardpic)\/
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/c5cc1448fc7dca55.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/c5cc1448fc7dca55.js
 - http_response:
     name: 广告拦截合集-响应
     match: (?i)^https?:\/\/api\.gamer\.com\.tw\/mobile_app\/anime\/v\d\/(token|m3u8).php\?
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/a476149cdb436b11.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/a476149cdb436b11.js
 - http_response:
     name: 广告拦截合集-响应
     match: (?i)^https?:\/\/47\.100\.65\.202\/source\/plugin\/mobile\/mobile\.php\?module=threadpost&.+?&page=1
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/01fe48e71844933c.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/01fe48e71844933c.js
 - http_response:
     name: 广告拦截合集-响应
     match: (?i)^https?:\/\/www\.flyert\.com(\.cn)?\/.*plugin
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/66799b5ea242cafb.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/66799b5ea242cafb.js
 - http_response:
     name: 广告拦截合集-响应
     match: (?i)^https:\/\/mcsp\.cloudpnr\.com\/api\/miniapp\/popular\/T_MINIAPP$
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/33ff0bd308920ca3.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/33ff0bd308920ca3.js
 - http_response:
     name: 广告拦截合集-响应
     match: (?i)^https:\/\/saas-ad\.cloudpnr\.com\/huifuad-base-api\/api\/tactics\/ad
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/33ff0bd308920ca3.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/33ff0bd308920ca3.js
 - http_response:
     name: 广告拦截合集-响应
     match: (?i)^https?:\/\/yunbusiness\.ccb\.com\/basic_service\/txCtrl\?txcode=A3341AB04
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/6a661f3a4aec8181.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/6a661f3a4aec8181.js
 - http_response:
     name: 广告拦截合集-响应
     match: (?i)^https?:\/\/g\.alicdn\.com\/.*o2o-ad
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/38f1047b07bfb9e8.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/38f1047b07bfb9e8.js
 - http_response:
     name: 广告拦截合集-响应
     match: (?i)^https?:\/\/api\.m\.jd\.com\/api\?functionId=delivery_show
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/b486397898ed65a4.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/b486397898ed65a4.js
 - http_response:
     name: 广告拦截合集-响应
     match: (?i)^https:\/\/(api-access\.pangolin-sdk-toutiao\.com\/api\/ad\/union\/sdk\/get_ads|open\.e\.kuaishou\.com\/rest\/e\/v3\/open\/univ$|mi\.gdt\.qq\.com\/gdt_mview\.fcg\?)
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/26e394939ebcbe0d.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/26e394939ebcbe0d.js
 - http_response:
     name: 广告拦截合集-响应
     match: (?i)^https?:\/\/www\.1314zhilv\.com\/ltsstnew\/(common\/getJGQIconNew|city\/getAllBannelByCity)
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/0726ade0bc75c193.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/0726ade0bc75c193.js
 - http_response:
     name: 广告拦截合集-响应
     match: (?i)^https:\/\/lawsonapi\.yorentown\.com\/area\/sh-lawson\/app\/v1\/
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/cfdc45f1f1566f97.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/cfdc45f1f1566f97.js
 - http_response:
     name: 广告拦截合集-响应
     match: (?i)^https:\/\/lawsonapi\.yorentown\.com\/portal\/app\/globalLaunch\/listAdvert
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/cfdc45f1f1566f97.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/cfdc45f1f1566f97.js
 - http_response:
     name: 广告拦截合集-响应
     match: (?i)^https?:\/\/creditcardapp\.bankcomm\.(com|cn)\/rcg\/index\.html\?callbackurl=rcg\/index\.html&orclogin=1&
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/25ab2bcc94118d52.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/25ab2bcc94118d52.js
 - http_response:
     name: 广告拦截合集-响应
     match: (?i)^https:\/\/(h3\.)?open\.taou\.com\/maimai\/feed\/v6\/detail_recommend_feeds\?
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/9a92d8dfcb535a64.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/9a92d8dfcb535a64.js
 - http_response:
     name: 广告拦截合集-响应
     match: (?i)^https:\/\/(h3\.)?open\.taou\.com\/maimai\/(feed|gossip)\/v\d\/(focus_feed|gossip_detail_comment|feed_detail_comment?)\?
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/9a92d8dfcb535a64.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/9a92d8dfcb535a64.js
 - http_response:
     name: 广告拦截合集-响应
     match: (?i)^https:\/\/api\.bevol\.com\/(?:appmain\/app\/home\/page|usercenter\/account\/info|personal\/page|appmain\/app\/home\/launch|trialbox\/shop\/app\/homePage)$
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/84bb0e0ee362f7f6.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/84bb0e0ee362f7f6.js
 - http_response:
     name: 广告拦截合集-响应
     match: (?i)^https:\/\/j1\.pupuapi\.com\/client\/search\/hot_keywords\/v3
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/21dbda7a4a426145.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/21dbda7a4a426145.js
 - http_response:
     name: 广告拦截合集-响应
     match: (?i)^https:\/\/j1\.pupuapi\.com\/client\/app_resource\/resource_preload\/list_h5_resource
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/21dbda7a4a426145.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/21dbda7a4a426145.js
 - http_response:
     name: 广告拦截合集-响应
     match: (?i)^https:\/\/j1\.pupuapi\.com\/client\/marketing\/advertisement\/v1
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/21dbda7a4a426145.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/21dbda7a4a426145.js
 - http_response:
     name: 广告拦截合集-响应
     match: (?i)^https:\/\/j1\.pupuapi\.com\/client\/search\/hub\/search_box\/products\/v6
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/21dbda7a4a426145.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/21dbda7a4a426145.js
 - http_response:
     name: 广告拦截合集-响应
     match: (?i)^https:\/\/j1\.pupuapi\.com\/client\/order_settlement\/detail
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/21dbda7a4a426145.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/21dbda7a4a426145.js
 - http_response:
     name: 广告拦截合集-响应
     match: (?i)^https:\/\/j1\.pupuapi\.com\/client\/order\/orders\/list\/v4
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/21dbda7a4a426145.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/21dbda7a4a426145.js
 - http_response:
     name: 广告拦截合集-响应
     match: (?i)^https?:\/\/(?>webapi|miniapp)\.qmai\.cn\/web\/catering([0-9]-apiserver)?\/advertising\/ad\/advertiseInfo
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/f6c16a20b467a9e4.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/f6c16a20b467a9e4.js
 - http_response:
     name: 广告拦截合集-响应
     match: (?i)^https?:\/\/cupid\.51job(app)?\.com\/open\/noauth\/recommend\/job-tab-dynamic
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/7dbdec92c7ab7b6d.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/7dbdec92c7ab7b6d.js
 - http_response:
     name: 广告拦截合集-响应
     match: (?i)^https?:\/\/iqushangwang\.8quan\.com\/index\.php\/i\/index\/index
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/d8fd2cfdc5dfd9ec.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/d8fd2cfdc5dfd9ec.js
 - http_response:
     name: 广告拦截合集-响应
     match: (?i)^https?:\/\/api\.rr\.tv\/\w{3}\/level\/info
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/5d0c60f7bfb9f2e1.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/5d0c60f7bfb9f2e1.js
 - http_response:
     name: 广告拦截合集-响应
     match: (?i)^https?:\/\/api\.rr\.tv\/v3plus\/index\/channel\?pageNum=1&position=CHANNEL_INDEX
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/5d0c60f7bfb9f2e1.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/5d0c60f7bfb9f2e1.js
 - http_response:
     name: 广告拦截合集-响应
     match: (?i)^https?:\/\/api\.rr\.tv\/app\/config\/h5NativeBar
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/5d0c60f7bfb9f2e1.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/5d0c60f7bfb9f2e1.js
 - http_response:
     name: 广告拦截合集-响应
     match: (?i)^https?:\/\/api\.rr\.tv\/v3plus\/index\/channel\?pageNum=1&position=CHANNEL_MY
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/5d0c60f7bfb9f2e1.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/5d0c60f7bfb9f2e1.js
 - http_response:
     name: 广告拦截合集-响应
     match: (?i)^https?:\/\/api\.rr\.tv\/user\/privilege\/list
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/5d0c60f7bfb9f2e1.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/5d0c60f7bfb9f2e1.js
 - http_response:
     name: 广告拦截合集-响应
     match: (?i)^https?:\/\/api\.rr\.tv\/ad\/getAll
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/5d0c60f7bfb9f2e1.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/5d0c60f7bfb9f2e1.js
 - http_response:
     name: 广告拦截合集-响应
     match: (?i)^https?:\/\/api\.rr\.tv\/drama\/app\/get_combined_drama_detail
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/5d0c60f7bfb9f2e1.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/5d0c60f7bfb9f2e1.js
 - http_response:
     name: 广告拦截合集-响应
     match: (?i)^https?:\/\/api\.rr\.tv\/watch\/v4
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/5d0c60f7bfb9f2e1.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/5d0c60f7bfb9f2e1.js
 - http_response:
     name: 广告拦截合集-响应
     match: (?i)^https?:\/\/api\.rr\.tv\/user\/profile
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/5d0c60f7bfb9f2e1.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/5d0c60f7bfb9f2e1.js
 - http_response:
     name: 广告拦截合集-响应
     match: (?i)^https?:\/\/api\.sodalife\.xyz\/v1\/posters\?location=SODA_APP%3AHOME%3ATOP
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/951173367a32357b.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/951173367a32357b.js
 - http_response:
     name: 广告拦截合集-响应
     match: (?i)^https?:\/\/(news\.ssp\.qq\.com\/app|r\.inews\.qq\.com\/(get(QQNewsUnreadList|TagFeedList)|gw\/page\/event_detail|news_feed\/hot_module_list))
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/fac5cd6feece93b4.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/fac5cd6feece93b4.js
 - http_response:
     name: 广告拦截合集-响应
     match: (?i)^https?:\/\/(cl-)?gateway\.tuhu\.cn(\/cl)?\/cl-common-api\/api\/personalCenter\/getCmsModuleList
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/da6d1953daaefd41.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/da6d1953daaefd41.js
 - http_response:
     name: 广告拦截合集-响应
     match: (?i)^https?:\/\/(cl-)?gateway\.tuhu\.cn(\/cl)?\/[a-z-]+\/homePage\/getHomePageInfo
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/da6d1953daaefd41.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/da6d1953daaefd41.js
 - http_response:
     name: 广告拦截合集-响应
     match: (?i)^https?:\/\/(cl-)?gateway\.tuhu\.cn(\/cl)?\/cl-shop-api\/shopTab\/getModuleForC
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/da6d1953daaefd41.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/da6d1953daaefd41.js
 - http_response:
     name: 广告拦截合集-响应
     match: (?i)^https?:\/\/app02\.vgtime\.com:8080\/vgtime-app\/api\/v2\/init\/ad\.json
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/9e40c89be979de95.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/9e40c89be979de95.js
 - http_response:
     name: 广告拦截合集-响应
     match: (?i)^https?:\/\/dict\.youdao\.com\/(homepage\/promotion|course\/tab\/home|homepage\/tile)
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/ade5dea5f975a34c.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/ade5dea5f975a34c.js
 - http_response:
     name: 广告拦截合集-响应
     match: (?i)^https:\/\/vue3-api\.zhixiny\.cn\/v1\/initui\?key=index
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/ab375287cfc4e193.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/ab375287cfc4e193.js
 - http_response:
     name: 广告拦截合集-响应
     match: (?i)^https?:\/\/.+?\.(pipi|fuli|xiang(jiao|xiang))apps\.com\/(ucp\/index|getGlobalData|(\/|)vod\/reqplay\/)
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/9a1a024bad000fa8.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/9a1a024bad000fa8.js
 - http_response:
     name: 广告拦截合集-响应
     match: (?i)^https:\/\/mgesq\.api\.mgtv\.com\/dsl\/index\.+
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/1d452fda92a65605.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/1d452fda92a65605.js
 - http_response:
     name: 广告拦截合集-响应
     match: (?i)^https?:\/\/api\.m\.mi\.com\/v1\/app\/start
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/d564496d0d24d93c.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/d564496d0d24d93c.js
 - http_response:
     name: 广告拦截合集-响应
     match: (?i)^https?:\/\/mapi\.xiaotucc\.com\/(mall\/main|main_page\/index\/getActivity)
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/51486236aa04198a.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/51486236aa04198a.js
 - http_response:
     name: 广告拦截合集-响应
     match: (?i)^https?:\/\/www\.myusmile\.online\/user\/plaqueTopic\/selectByType
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/5cfc1c252790250a.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/5cfc1c252790250a.js
 - http_response:
     name: 广告拦截合集-响应
     match: (?i)^https?:\/\/api\.ulife\.group\/market\/homeIconDetail\/list\/v7
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/0d84a3f2debe97f4.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/0d84a3f2debe97f4.js
 - http_response:
     name: 广告拦截合集-响应
     match: (?i)^https?:\/\/wx\.mygolbs\.com\/WxBusServer\/ApiData\.do
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/bfc500abb8ac6e07.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/bfc500abb8ac6e07.js
 - http_response:
     name: 广告拦截合集-响应
     match: (?i)^https:\/\/marketing\.cmschina\.com\/mkt\/api\/v1\?.*
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/c487f31ebe0edac2.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/c487f31ebe0edac2.js
 - http_response:
     name: 广告拦截合集-响应
     match: (?i)^https?:\/\/m\.airchina\.com\.cn\/airchina\/gateway\/v\d(\.\d)*\/api\/services
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/73a17ddebebbc275.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/73a17ddebebbc275.js
 - http_response:
     name: 广告拦截合集-响应
     match: (?i)^https?:\/\/app\.zhuanzhuan\.com\/zz\/transfer\/getmyprofilev3
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/74eb350068d6b99b.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/74eb350068d6b99b.js
 - http_response:
     name: 广告拦截合集-响应
     match: (?i)^https?:\/\/zgrb\.epicc\.com\.cn\/G-HAPP\/a\/config\/homeInit\/v
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/a0065fbe7285f459.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/a0065fbe7285f459.js
 - http_response:
     name: 广告拦截合集-响应
     match: (?i)^https?:\/\/zgrb\.epicc\.com\.cn\/G-HAPP\/mpageconfig\/myPageConfigList\/v
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/a0065fbe7285f459.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/a0065fbe7285f459.js
 mitm:
   hostnames:
   - gab.122.gov.cn

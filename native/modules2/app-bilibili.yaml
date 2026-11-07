@@ -103,23 +103,23 @@ scriptings:
 - http_request:
     name: 哔哩哔哩-请求
     match: (?i)^https:\/\/(grpc\.biliapi\.net|app\.bilibili\.com)\/bilibili\.community\.service\.dm\.v1\.DM\/DmSegMobile$
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/c727027b031d7aeb.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/c727027b031d7aeb.js
 - http_request:
     name: 哔哩哔哩-请求
     match: (?i)^https:\/\/(grpc\.biliapi\.net|app\.bilibili\.com)\/bilibili\.(app\.viewunite\.v1\.View\/View|main\.community\.reply\.v1\.Reply\/MainList)$
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/c727027b031d7aeb.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/c727027b031d7aeb.js
 - http_response:
     name: 哔哩哔哩-响应
     match: (?i)^https:\/\/(grpc\.biliapi\.net|app\.bilibili\.com)\/bilibili\.(app\.(show\.v1\.Popular\/Index|dynamic\.v2\.Dynamic\/DynAll|view(unite)?\.v1\.View\/(View|ViewProgress|RelatesFeed|AIRelateAsync)|playurl\.v1\.PlayURL\/PlayView|playerunite\.v1\.Player\/PlayViewUnite)|polymer\.app\.search\.v1\.Search\/SearchAll|community\.service\.dm\.v1\.DM\/DmView|main\.community\.reply\.v1\.Reply\/MainList|pgc\.gateway\.player\.v2\.PlayURL\/PlayView)$
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/46d4b9a682ed1d48.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/46d4b9a682ed1d48.js
 - http_response:
     name: 哔哩哔哩-响应
     match: (?i)^https:\/\/www\.bilibili\.com\/blackboard\/era\/.+\.html\?
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/fd8c2088410049a2.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/fd8c2088410049a2.js
 - http_response:
     name: 哔哩哔哩-响应
     match: (?i)^https:\/\/api\.live\.bilibili\.com\/xlive\/(app-interface\/v2\/index\/feed|app-room\/v1\/index\/getInfoBy(Room|User))\?
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/cc6e710a8025dad7.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/cc6e710a8025dad7.js
 mitm:
   hostnames:
   - grpc.biliapi.net

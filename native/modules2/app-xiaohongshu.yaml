@@ -64,7 +64,7 @@ scriptings:
 - http_response:
     name: 小红书-响应
     match: (?i)^https:\/\/edith\.(?:xiaohongshu|rnote)\.com\/api\/sns\/(?:v1\/interaction\/comment\/video\/download|v5\/note\/comment\/list|v3\/note\/comment\/sub_comments)
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/6d50baad22df9b29.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/6d50baad22df9b29.js
 mitm:
   hostnames:
   - ci.xiaohongshu.com

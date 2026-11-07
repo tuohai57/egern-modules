@@ -408,99 +408,99 @@ scriptings:
 - http_response:
     name: 微信-响应
     match: (?i)^https\:\/\/(?:weixin110\.qq|security\.wechat)\.com\/cgi-bin\/mmspamsupport-bin\/newredirectconfirmcgi\?
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/38d56dc721a3a3ae.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/38d56dc721a3a3ae.js
 - http_response:
     name: 微信-响应
     match: (?i)^https:\/\/webapi\.qmai\.cn\/web\/catering\/design\/homePage-Config
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/c1ddd45d50bdab18.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/c1ddd45d50bdab18.js
 - http_response:
     name: 微信-响应
     match: (?i)^https?:\/\/ec\.ems\.com\.cn\/ecr-qry-web\/redis\/pageInfoByChannel
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/dfbc95f7b67984ed.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/dfbc95f7b67984ed.js
 - http_response:
     name: 微信-响应
     match: (?i)^https?:\/\/ump\.ems\.com\.cn\/new-generation-extend\/redis\/pageInfoByChannel
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/dfbc95f7b67984ed.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/dfbc95f7b67984ed.js
 - http_response:
     name: 微信-响应
     match: (?i)^https:\/\/ump\.ems\.com\.cn\/new-generation-extend\/redis\/pageInfoByChannel
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/5b42e1925c3ed45b.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/5b42e1925c3ed45b.js
 - http_response:
     name: 微信-响应
     match: (?i)^https:\/\/mapi\.xiaotucc\.com\/(mall\/main|main_page\/index\/getActivity)
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/1acfaa8c5186f209.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/1acfaa8c5186f209.js
 - http_response:
     name: 微信-响应
     match: (?i)^https:\/\/minifm\.maxxipoint\.com\/banner\/list
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/cb1bd018fc2e1223.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/cb1bd018fc2e1223.js
 - http_response:
     name: 微信-响应
     match: (?i)^https:\/\/lawsonapi\.yorentown\.com\/area\/sh-lawson\/app\/v1\/home
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/9ecfb24ecb1f2956.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/9ecfb24ecb1f2956.js
 - http_response:
     name: 微信-响应
     match: (?i)^https:\/\/miniapp\.sexytea2013\.com\/cms\/slot\/queryByCodes\?codes=INDEX_TOP_BANNER
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/db234507ae7d0c09.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/db234507ae7d0c09.js
 - http_response:
     name: 微信-响应
     match: (?i)^https:\/\/coco-com\.e\.verystar\.net\/v1\/home\/info
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/be180f76dd029e7b.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/be180f76dd029e7b.js
 - http_response:
     name: 微信-响应
     match: (?i)^https:\/\/htwkop\.xiaojukeji\.com\/gateway\?api=hm\.fa\.homeConfig
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/056703d3c40c26ad.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/056703d3c40c26ad.js
 - http_response:
     name: 微信-响应
     match: (?i)^https:\/\/cappapi\.alittle-tea\.com\/open\?method=catering\.set\.ad
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/b8195510dd2f6bd5.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/b8195510dd2f6bd5.js
 - http_response:
     name: 微信-响应
     match: (?i)^https:\/\/api\.prod\.dj\.mstand\.cn\/scrm\/mini\/app\/index\/info
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/f1e7389c75035c95.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/f1e7389c75035c95.js
 - http_response:
     name: 微信-响应
     match: (?i)^https:\/\/passenger\.t3go\.cn\/(solution\-|common\-)?(passenger\-)?(activity\-|app\-)?api\/notoken\/(trip\/)?api\/(home\/|common\/)?(v[1-3]\/)?(ad\/getNegativescreen|solution\/passenger\/open\/getHomeMenu|leftmenu|getHomeInfoGlobal)
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/0b00d3e4fae31b28.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/0b00d3e4fae31b28.js
 - http_response:
     name: 微信-响应
     match: (?i)^https:\/\/newton\.gumingnc\.com\/newton-buyer\/newton\/buyer\/(ump|touch|external\/front)
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/285b55663105b67b.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/285b55663105b67b.js
 - http_response:
     name: 微信-响应
     match: (?i)^https:\/\/web\.meituan\.com\/api\/miniprogram\/index\/aggregate
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/db21bcaa6f2950dc.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/db21bcaa6f2950dc.js
 - http_response:
     name: 微信-响应
     match: (?i)^https:\/\/web\.meituan\.com\/api\/miniprogram\/tabbar\/all\/query
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/db21bcaa6f2950dc.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/db21bcaa6f2950dc.js
 - http_response:
     name: 微信-响应
     match: (?i)^https:\/\/web\.meituan\.com\/api\/miniprogram\/my\/novelZone
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/db21bcaa6f2950dc.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/db21bcaa6f2950dc.js
 - http_response:
     name: 微信-响应
     match: (?i)^https:\/\/web\.meituan\.com\/api\/miniprogram\/my\/resources
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/db21bcaa6f2950dc.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/db21bcaa6f2950dc.js
 - http_response:
     name: 微信-响应
     match: (?i)^https:\/\/npay\.meituan\.com\/conch\/flow\/mypage-wallet-info
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/db21bcaa6f2950dc.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/db21bcaa6f2950dc.js
 - http_response:
     name: 微信-响应
     match: (?i)^https:\/\/npay\.meituan\.com\/conch\/verify\/queryInfo
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/db21bcaa6f2950dc.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/db21bcaa6f2950dc.js
 - http_response:
     name: 微信-响应
     match: (?i)^https?:\/\/apis\.folidaymall\.com\/online\/capi\/component\/getPageComponents
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/edd8d08e33b97088.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/edd8d08e33b97088.js
 - http_response:
     name: 微信-响应
     match: (?i)^https?:\/\/gateway\.cotticoffee\.com\/cotti-capi\/customer\/position\/list$
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/35a2e771b4599bcb.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/35a2e771b4599bcb.js
 - http_response:
     name: 微信-响应
     match: (?i)^https?:\/\/wx\.mygolbs\.com\/WxBusServer\/ApiData\.do
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/bfc500abb8ac6e07.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/bfc500abb8ac6e07.js
 mitm:
   hostnames:
   - mp.weixin.qq.com

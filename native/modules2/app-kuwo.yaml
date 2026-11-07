@@ -67,27 +67,27 @@ scriptings:
 - http_response:
     name: 酷我音乐
     match: ^https?:\/\/(mgxhtj|nmobi|searchrecterm)\.kuwo\.cn\/(mgxh|mobi|recterm)\.s
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/baa68fb537c15aa6.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/baa68fb537c15aa6.js
     body_required: true
 - http_response:
     name: 酷我音乐
     match: ^https?:\/\/audiobookpay\.kuwo\.cn\/a\.p
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/baa68fb537c15aa6.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/baa68fb537c15aa6.js
     body_required: true
 - http_response:
     name: 酷我音乐
     match: ^https?:\/\/musicpay\.kuwo\.cn\/music\.pay
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/baa68fb537c15aa6.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/baa68fb537c15aa6.js
     body_required: true
 - http_response:
     name: 酷我音乐
     match: ^https?:\/\/vip1\.kuwo\.cn\/vip\/(enc\/user\/vip\?
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/baa68fb537c15aa6.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/baa68fb537c15aa6.js
     body_required: true
 - http_response:
     name: 酷我音乐
     match: ^https?:\/\/vip1\.kuwo\.cn\/vip\/v\d\/user\/vip\?
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/baa68fb537c15aa6.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/baa68fb537c15aa6.js
     body_required: true
 mitm:
   hostnames:

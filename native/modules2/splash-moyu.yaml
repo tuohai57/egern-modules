@@ -983,163 +983,163 @@ scriptings:
 - http_response:
     name: 墨鱼去开屏2.0-响应
     match: (?i)^https?:\/\/[a-zA-Z0-9_-]+(\.[a-zA-Z0-9_-]+){1,4}(:\d+)?\/api\/v\d\/movie\/index_recommend
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/34bddbae5a788f21.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/34bddbae5a788f21.js
 - http_response:
     name: 墨鱼去开屏2.0-响应
     match: (?i)^https?:\/\/ad\.12306\.cn\/ad\/ser\/getAdList
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/096fdb696cee4ec5.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/096fdb696cee4ec5.js
 - http_response:
     name: 墨鱼去开屏2.0-响应
     match: (?i)^https?:\/\/www\.123pan\.com\/s\/[0-9a-zA-Z=_\/-]+\.html
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/2f2f957b87e7d8f5.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/2f2f957b87e7d8f5.js
 - http_response:
     name: 墨鱼去开屏2.0-响应
     match: (?i)^https?:\/\/.*(xbwpys|ahhhhfs)\.com\/($|[0-9a-zA-Z_\/]+\/$)
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/1d463fd0512a2dfb.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/1d463fd0512a2dfb.js
 - http_response:
     name: 墨鱼去开屏2.0-响应
     match: (?i)^https:\/\/newclient\.map\.baidu\.com\/client\/phpui2\/\?qt=ads
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/10c3aba02d064fe6.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/10c3aba02d064fe6.js
 - http_response:
     name: 墨鱼去开屏2.0-响应
     match: (?i)^https?:\/\/bp-api\.bestv\.com\.cn\/cms\/api\/audit\/home\/getCommonMixData
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/7df03bf05fc6ded8.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/7df03bf05fc6ded8.js
 - http_response:
     name: 墨鱼去开屏2.0-响应
     match: (?i)^https?:\/\/gg\.caixin\.com\/s\?z=caixin&op=1&c=3362
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/0530d002cd039d14.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/0530d002cd039d14.js
 - http_response:
     name: 墨鱼去开屏2.0-响应
     match: (?i)^https:\/\/beta-api\.crunchyroll\.com\/cms
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/bad50e8866653e42.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/bad50e8866653e42.js
 - http_response:
     name: 墨鱼去开屏2.0-响应
     match: (?i)^https?:\/\/maicai\.api\.ddxq\.mobi\/advert\/getAd
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/bad50e8866653e42.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/bad50e8866653e42.js
 - http_response:
     name: 墨鱼去开屏2.0-响应
     match: (?i)^https?:\/\/.*flyert.*\/api\/mobile\/index\.php\?version=\d&mobile=yes&module=basicdata&type=forumlist
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/bad50e8866653e42.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/bad50e8866653e42.js
 - http_response:
     name: 墨鱼去开屏2.0-响应
     match: (?i)^https?:\/\/.*flyert.*\/source\/plugin\/mobile\/mobile\.php\?module=threadpost&.+?&page=1
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/b3264b23df49cf0c.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/b3264b23df49cf0c.js
 - http_response:
     name: 墨鱼去开屏2.0-响应
     match: (?i)^https?:\/\/.*umetrip\.com\.cn\/gateway\/api\/umetrip\/native$
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/13e7a0546fbda272.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/13e7a0546fbda272.js
 - http_response:
     name: 墨鱼去开屏2.0-响应
     match: (?i)^https?:\/\/.*cupid\.iqiyi\.com\/mixer\?
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/966539e72633bdfe.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/966539e72633bdfe.js
 - http_response:
     name: 墨鱼去开屏2.0-响应
     match: (?i)^https?:\/\/napi\.ithome\.com\/api\/news\/indexv\d\/iphone
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/201eefea5951a4b6.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/201eefea5951a4b6.js
 - http_response:
     name: 墨鱼去开屏2.0-响应
     match: (?i)^https?:\/\/api\.m\.jd\.com\/api\?functionId=delivery_show
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/8a9be0a3005b55e1.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/8a9be0a3005b55e1.js
 - http_response:
     name: 墨鱼去开屏2.0-响应
     match: (?i)^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=(hotWords|hotSearchTerms)
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/7c64a71023246641.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/7c64a71023246641.js
 - http_response:
     name: 墨鱼去开屏2.0-响应
     match: (?i)^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=lite_advertising
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/bad50e8866653e42.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/bad50e8866653e42.js
 - http_response:
     name: 墨鱼去开屏2.0-响应
     match: (?i)^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=lite_SmartPush
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/bad50e8866653e42.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/bad50e8866653e42.js
 - http_response:
     name: 墨鱼去开屏2.0-响应
     match: (?i)^https?:\/\/res.kfc.com.cn\/CRM\/kfcad\/apphome6\/apphome.*json
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/bad50e8866653e42.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/bad50e8866653e42.js
 - http_response:
     name: 墨鱼去开屏2.0-响应
     match: (?i)^https?:\/\/api\.coolapk\.com\/v6\/(feed\/(replyList|detail)|main\/indexV8|dataList)
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/304ba13df67a42cf.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/304ba13df67a42cf.js
 - http_response:
     name: 墨鱼去开屏2.0-响应
     match: (?i)^https?:\/\/api.coolapk.com\/v6\/main\/init
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/304ba13df67a42cf.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/304ba13df67a42cf.js
 - http_response:
     name: 墨鱼去开屏2.0-响应
     match: (?i)^https?:\/\/open-cms-api\.(uc|quark)\.cn\/open-cms
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/7733ced46e2fb451.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/7733ced46e2fb451.js
 - http_response:
     name: 墨鱼去开屏2.0-响应
     match: (?i)^https?:\/\/apapia-sqk\.manmanbuy\.com\/index_json\.ashx
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/bad50e8866653e42.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/bad50e8866653e42.js
 - http_response:
     name: 墨鱼去开屏2.0-响应
     match: (?i)^https?:\/\/mobilepaas\.abchina\.com\.cn:441\/mgw\.htm
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/666bcb298183cae5.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/666bcb298183cae5.js
 - http_response:
     name: 墨鱼去开屏2.0-响应
     match: (?i)^https?:\/\/careapi\.oclean\.com\/mall\/v\d\/User\/GetUserCenter
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/bad50e8866653e42.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/bad50e8866653e42.js
 - http_response:
     name: 墨鱼去开屏2.0-响应
     match: (?i)^https?:\/\/j1\.pupuapi\.com\/client\/marketing\/banner\/v\d\?position
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/bc4e72176c017be1.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/bc4e72176c017be1.js
 - http_response:
     name: 墨鱼去开屏2.0-响应
     match: (?i)^https?:\/\/api\.jk\.cn\/m\.api
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/114a068faa77ca97.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/114a068faa77ca97.js
 - http_response:
     name: 墨鱼去开屏2.0-响应
     match: (?i)^https?:\/\/j1\.pupuapi\.com\/client\/marketing\/advertisement\/v
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/bad50e8866653e42.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/bad50e8866653e42.js
 - http_response:
     name: 墨鱼去开屏2.0-响应
     match: (?i)^https?:\/\/apps\.teamair\.cn\/app\/version
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/5d5185646c2a04e3.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/5d5185646c2a04e3.js
 - http_request:
     name: 墨鱼去开屏2.0-请求
     match: (?i)^https:\/\/spclient\.wg\.spotify\.com\/(artistview\/v1\/artist|album-entity-view\/v2\/album)\/
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/c72773419e8b5494.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/c72773419e8b5494.js
 - http_response:
     name: 墨鱼去开屏2.0-响应
     match: (?i)^https:\/\/spclient\.wg\.spotify\.com\/(bootstrap\/v1\/bootstrap|user-customization-service\/v1\/customize)$
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/33c8737f8518e6dd.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/33c8737f8518e6dd.js
 - http_response:
     name: 墨鱼去开屏2.0-响应
     match: (?i)^https?:\/\/ccsp-egmas\.sf-express\.com\/cx-app-base\/base\/app\/ad\/queryInfoFlow
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/d7482a8740201be1.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/d7482a8740201be1.js
 - http_response:
     name: 墨鱼去开屏2.0-响应
     match: (?i)^https?:\/\/api\.shenyin\.name\/stay-fork\/browse\/featured$
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/51a6039b3152d414.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/51a6039b3152d414.js
 - http_response:
     name: 墨鱼去开屏2.0-响应
     match: (?i)^https?:\/\/sh-gateway\.shihuo\.cn\/v\d\/services\/sh-adapi\/home\/screen
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/bad50e8866653e42.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/bad50e8866653e42.js
 - http_response:
     name: 墨鱼去开屏2.0-响应
     match: (?i)^https?:\/\/.*zdmimg\.com\/cpm\/api\/v\d\/advert_distribution\/get_all_advertise
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/5565e536a2299efd.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/5565e536a2299efd.js
 - http_response:
     name: 墨鱼去开屏2.0-响应
     match: (?i)^https?:\/\/tft-app\.cdtft\.cn\/gateway-customer\/tftapp\/tft-ams\/api\/appAd
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/bad50e8866653e42.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/bad50e8866653e42.js
 - http_response:
     name: 墨鱼去开屏2.0-响应
     match: (?i)^https?:\/\/lcen\.xiaote\.net\/api\/graphql
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/bad50e8866653e42.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/bad50e8866653e42.js
 - http_response:
     name: 墨鱼去开屏2.0-响应
     match: (?i)^https?:\/\/apps\.workair\.cn\/app\/version
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/bad50e8866653e42.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/bad50e8866653e42.js
 - http_response:
     name: 墨鱼去开屏2.0-响应
     match: (?i)^https:\/\/gw\.xiaocantech\.com\/rpc
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/bad50e8866653e42.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/bad50e8866653e42.js
 - http_response:
     name: 墨鱼去开屏2.0-响应
     match: (?i)^https?:\/\/api\.zhihu\.com\/commercial_api.*launch_v2
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/c360eb2607438160.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/c360eb2607438160.js
 mitm:
   hostnames:
   - 101.226.30.36

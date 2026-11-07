@@ -171,7 +171,7 @@ scriptings:
 - http_response:
     name: 微博-响应
     match: (?i)^https:\/\/m?api\.weibo\.c(n|om)\/2\/groups\/allgroups\/v2\?
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/2ee8f5b6aa5d0d70.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/2ee8f5b6aa5d0d70.js
 mitm:
   hostnames:
   - '*.weibo.cn'

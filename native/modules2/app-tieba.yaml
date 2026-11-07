@@ -65,7 +65,7 @@ scriptings:
 - http_response:
     name: 百度贴吧（脚本已镜像）-响应
     match: (?i)^https?:\/\/tieba(?:c)?\.baidu\.com\/c\/(f\/excellent\/personalized|f\/frs\/page|b\/ad\/adBid|f\/ad\/getFeedAd|f\/pb\/page|f\/frs\/generalTabList)\?cmd=\d+&format=protobuf
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/7e5d5ec2ce819c85.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/7e5d5ec2ce819c85.js
 mitm:
   hostnames:
   - tiebac.baidu.com

@@ -11,7 +11,7 @@ scriptings:
 - http_response:
     name: X网页版去广告
     match: ^https?:\/\/x\.com\/i\/api\/graphql\/[^\/]+\/(HomeTimeline|HomeLatestTimeline|TweetDetail)
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/765bc421243f2d26.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/765bc421243f2d26.js
     body_required: true
 mitm:
   hostnames:

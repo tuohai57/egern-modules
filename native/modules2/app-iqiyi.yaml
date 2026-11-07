@@ -171,67 +171,67 @@ scriptings:
 - http_response:
     name: 爱奇艺首页信息流广告
     match: ^https?:\/\/[\d\.]+\/3f1\/cards\.iqiyi\.com\/(views_home\/3\.0\/qy_home|waterfall\/3\.0\/feed)\?
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/5bb26e5f9cb4fada.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/5bb26e5f9cb4fada.js
     body_required: true
 - http_response:
     name: 爱奇艺首页信息流广告
     match: ^https?:\/\/access\.if\.iqiyi\.com\/3f1\/cards\.iqiyi\.com\/(views_category\/3\.0\/category_home|views_home\/3\.0\/qy_home|waterfall\/3\.0\/feed)\?
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/5bb26e5f9cb4fada.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/5bb26e5f9cb4fada.js
     body_required: true
 - http_response:
     name: 爱奇艺首页信息流广告
     match: ^https?:\/\/cards\.iqiyi\.com\/views_category\/3\.0\/(category_home|categorylib_content|film_hybrid)\?
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/5bb26e5f9cb4fada.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/5bb26e5f9cb4fada.js
     body_required: true
 - http_response:
     name: 爱奇艺首页信息流广告
     match: ^https?:\/\/cards\.iqiyi\.com\/(views_home\/3\.0\/qy_home|waterfall\/3\.0\/feed)\?
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/5bb26e5f9cb4fada.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/5bb26e5f9cb4fada.js
     body_required: true
 - http_response:
     name: 爱奇艺播放详情页广告
     match: ^https?:\/\/cards\.iqiyi\.com\/views_plt\/3\.0\/player_tabs_v2\?
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/5bb26e5f9cb4fada.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/5bb26e5f9cb4fada.js
     body_required: true
 - http_response:
     name: 爱奇艺搜索页列表广告
     match: ^https?:\/\/cards\.iqiyi\.com\/views_search\/3\.0\/(hot_query_)?search\?
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/5bb26e5f9cb4fada.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/5bb26e5f9cb4fada.js
     body_required: true
 - http_response:
     name: 爱奇艺评论区
     match: ^https?:\/\/comment-card\.iqiyi\.com\/views_comment\/3\.0\/long_video_comments\?
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/5bb26e5f9cb4fada.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/5bb26e5f9cb4fada.js
     body_required: true
 - http_response:
     name: 爱奇艺我的页面菜单
     match: ^https?:\/\/iface2\.iqiyi\.com\/aggregate\/3\.0\/getMyMenus\?
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/5bb26e5f9cb4fada.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/5bb26e5f9cb4fada.js
     body_required: true
 - http_response:
     name: 爱奇艺首页左上角天气
     match: ^https?:\/\/iface2\.iqiyi\.com\/control\/3\.0\/init_proxy\?
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/5bb26e5f9cb4fada.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/5bb26e5f9cb4fada.js
     body_required: true
 - http_response:
     name: 爱奇艺通用控制,各tab页二楼
     match: ^https?:\/\/iface2\.iqiyi\.com\/fusion\/3\.0\/common_switch\?
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/5bb26e5f9cb4fada.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/5bb26e5f9cb4fada.js
     body_required: true
 - http_response:
     name: 爱奇艺底部tab、顶部tab
     match: ^https?:\/\/iface2\.iqiyi\.com\/views\/3\.0\/(bottom_theme|home_top_menu)\?
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/5bb26e5f9cb4fada.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/5bb26e5f9cb4fada.js
     body_required: true
 - http_response:
     name: 爱奇艺搜索框填充词
     match: ^https?:\/\/search\.video\.iqiyi\.com\/q\?
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/5bb26e5f9cb4fada.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/5bb26e5f9cb4fada.js
     body_required: true
 - http_response:
     name: 爱奇艺开屏广告,播放广告
     match: ^https?:\/\/(kjp|t7z)\.cupid\.iqiyi\.com\/mixer\?
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/5bb26e5f9cb4fada.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/5bb26e5f9cb4fada.js
     body_required: true
 mitm:
   hostnames:

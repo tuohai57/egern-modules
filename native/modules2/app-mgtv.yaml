@@ -127,37 +127,37 @@ scriptings:
 - http_response:
     name: 芒果TV我的页面
     match: ^https?:\/\/me\.bz\.mgtv\.com\/v3\/module\/list\?
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/5bb26e5f9cb4fada.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/5bb26e5f9cb4fada.js
     body_required: true
 - http_response:
     name: 芒果TV首页信息流,顶部tab
     match: ^https?:\/\/mob-st\.bz\.mgtv\.com\/odin\/c1\/channel\/index\?
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/5bb26e5f9cb4fada.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/5bb26e5f9cb4fada.js
     body_required: true
 - http_response:
     name: 芒果TV
     match: ^https?:\/\/dc2?\.bz\.mgtv\.com\/dynamic\/v1\/channel\/(index|vrsList)\/\w
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/5bb26e5f9cb4fada.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/5bb26e5f9cb4fada.js
     body_required: true
 - http_response:
     name: 芒果TV底部tab
     match: ^https?:\/\/mobile\.api\.mgtv\.com\/mobile\/config\?
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/5bb26e5f9cb4fada.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/5bb26e5f9cb4fada.js
     body_required: true
 - http_response:
     name: 芒果TV播放详情页
     match: ^https?:\/\/mobile\.api\.mgtv\.com\/v10\/video\/info\?
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/5bb26e5f9cb4fada.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/5bb26e5f9cb4fada.js
     body_required: true
 - http_response:
     name: 芒果TV播放详情页
     match: ^https?:\/\/mobile-thor\.api\.mgtv\.com\/v1\/vod\/info\?
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/5bb26e5f9cb4fada.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/5bb26e5f9cb4fada.js
     body_required: true
 - http_response:
     name: 芒果TV搜索框填充词
     match: ^https?:\/\/mobileso\.bz\.mgtv\.com\/mobile\/recommend\/v2\?
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/5bb26e5f9cb4fada.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/5bb26e5f9cb4fada.js
     body_required: true
 mitm:
   hostnames:

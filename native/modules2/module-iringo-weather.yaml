@@ -126,32 +126,32 @@ scriptings:
 - http_response:
     name: 🌤 WeatherKit.api.v1.availability.response
     match: ^https?:\/\/weatherkit\.apple\.com\/api\/v1\/availability\/
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/e424b9f9ce1416d1.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/e424b9f9ce1416d1.js
     env:
       _compat.$argument: DataSets="{{{DataSets}}}"&Weather.Provider="{{{Weather.Provider}}}"&WeatherAlerts.Provider="{{{WeatherAlerts.Provider}}}"&NextHour.Provider="{{{NextHour.Provider}}}"&AirQuality.Current.Pollutants.Provider="{{{AirQuality.Current.Pollutants.Provider}}}"&AirQuality.Calculate.Algorithm="{{{AirQuality.Calculate.Algorithm}}}"&API.ColorfulClouds.Token="{{{API.ColorfulClouds.Token}}}"&API.QWeather.Host="{{{API.QWeather.Host}}}"&API.QWeather.Token="{{{API.QWeather.Token}}}"&API.WAQI.Token="{{{API.WAQI.Token}}}"&Storage="{{{Storage}}}"&LogLevel="{{{LogLevel}}}"
     body_required: true
 - http_request:
     name: 🌤 WeatherKit.api.v1.airQualityScale.request
     match: ^https?:\/\/weatherkit\.apple\.com\/api\/v1\/airQualityScale\/
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/3cb640cbe4ea5e42.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/3cb640cbe4ea5e42.js
     env:
       _compat.$argument: DataSets="{{{DataSets}}}"&Weather.Provider="{{{Weather.Provider}}}"&WeatherAlerts.Provider="{{{WeatherAlerts.Provider}}}"&NextHour.Provider="{{{NextHour.Provider}}}"&AirQuality.Current.Pollutants.Provider="{{{AirQuality.Current.Pollutants.Provider}}}"&AirQuality.Calculate.Algorithm="{{{AirQuality.Calculate.Algorithm}}}"&API.ColorfulClouds.Token="{{{API.ColorfulClouds.Token}}}"&API.QWeather.Host="{{{API.QWeather.Host}}}"&API.QWeather.Token="{{{API.QWeather.Token}}}"&API.WAQI.Token="{{{API.WAQI.Token}}}"&Storage="{{{Storage}}}"&LogLevel="{{{LogLevel}}}"
 - http_request:
     name: 🌤 WeatherKit.api.v1.weatherAlerts.html.request
     match: ^https?://weatherkit\.apple\.com/api/v1/weatherAlerts\?[^#]*&ids=[^&#]*-[0-9]{9}(?:&|$)
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/3cb640cbe4ea5e42.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/3cb640cbe4ea5e42.js
     env:
       _compat.$argument: DataSets="{{{DataSets}}}"&Weather.Provider="{{{Weather.Provider}}}"&WeatherAlerts.Provider="{{{WeatherAlerts.Provider}}}"&NextHour.Provider="{{{NextHour.Provider}}}"&AirQuality.Current.Pollutants.Provider="{{{AirQuality.Current.Pollutants.Provider}}}"&AirQuality.Calculate.Algorithm="{{{AirQuality.Calculate.Algorithm}}}"&API.ColorfulClouds.Token="{{{API.ColorfulClouds.Token}}}"&API.QWeather.Host="{{{API.QWeather.Host}}}"&API.QWeather.Token="{{{API.QWeather.Token}}}"&API.WAQI.Token="{{{API.WAQI.Token}}}"&Storage="{{{Storage}}}"&LogLevel="{{{LogLevel}}}"
 - http_request:
     name: 🌤 WeatherKit.api.v1.weatherAlerts.api.request
     match: ^https?://weatherkit\.apple\.com/api/v1/weatherAlerts\?[^#]*&ids=-?[0-9]+(?:\.[0-9]+)?,-?[0-9]+(?:\.[0-9]+)?(?:&|$)
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/3cb640cbe4ea5e42.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/3cb640cbe4ea5e42.js
     env:
       _compat.$argument: DataSets="{{{DataSets}}}"&Weather.Provider="{{{Weather.Provider}}}"&WeatherAlerts.Provider="{{{WeatherAlerts.Provider}}}"&NextHour.Provider="{{{NextHour.Provider}}}"&AirQuality.Current.Pollutants.Provider="{{{AirQuality.Current.Pollutants.Provider}}}"&AirQuality.Calculate.Algorithm="{{{AirQuality.Calculate.Algorithm}}}"&API.ColorfulClouds.Token="{{{API.ColorfulClouds.Token}}}"&API.QWeather.Host="{{{API.QWeather.Host}}}"&API.QWeather.Token="{{{API.QWeather.Token}}}"&API.WAQI.Token="{{{API.WAQI.Token}}}"&Storage="{{{Storage}}}"&LogLevel="{{{LogLevel}}}"
 - http_response:
     name: 🌤 WeatherKit.api.v2.weather.response
     match: ^https?:\/\/weatherkit\.apple\.com\/api\/v2\/weather\/
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/native/scripts/e424b9f9ce1416d1.js
+    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/e424b9f9ce1416d1.js
     env:
       _compat.$argument: DataSets="{{{DataSets}}}"&Weather.Provider="{{{Weather.Provider}}}"&WeatherAlerts.Provider="{{{WeatherAlerts.Provider}}}"&NextHour.Provider="{{{NextHour.Provider}}}"&AirQuality.Current.Pollutants.Provider="{{{AirQuality.Current.Pollutants.Provider}}}"&AirQuality.Calculate.Algorithm="{{{AirQuality.Calculate.Algorithm}}}"&API.ColorfulClouds.Token="{{{API.ColorfulClouds.Token}}}"&API.QWeather.Host="{{{API.QWeather.Host}}}"&API.QWeather.Token="{{{API.QWeather.Token}}}"&API.WAQI.Token="{{{API.WAQI.Token}}}"&Storage="{{{Storage}}}"&LogLevel="{{{LogLevel}}}"
     body_required: true
