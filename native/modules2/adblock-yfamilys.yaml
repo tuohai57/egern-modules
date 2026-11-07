@@ -1,6 +1,3 @@
-# Egern 原生模块 · 由 Loon/Surge 格式转换
-# 源: https://yfamilys.com/module/AdBlock.module
-# 源格式: module
 name: NoAd
 description: 广告屏蔽
 author: Tartarus2014
@@ -46,10 +43,10 @@ url_rewrites:
 - match: ^https?:\/\/m\d\.amap\.com\/ws\/valueadded\/alimama\/splash_screen\/
   location: '-'
   status_code: 307
-- match: ^https?:\/\/[\w-.]+\.ott\.cibntv\.net\/[\w\/-]+.mp4\?sid=
+- match: ^https?:\/\/[A-Za-z0-9_.-]+\.ott\.cibntv\.net\/[A-Za-z0-9_\/-]+\.mp4\?sid=
   location: '-'
   status_code: 307
-- match: ^https?:\/\/[\w-.]+\.ott\.cibntv\.net\/[\w\/-]+.mp4\?ccode=02010101
+- match: ^https?:\/\/[A-Za-z0-9_.-]+\.ott\.cibntv\.net\/[A-Za-z0-9_\/-]+\.mp4\?ccode=02010101
   location: '-'
   status_code: 307
 - match: ^https?:\/\/api-new\.app\.acfun\.cn\/rest\/app\/flash\/screen\/
@@ -58,13 +55,13 @@ url_rewrites:
 - match: ^https?:\/\/api\.bjxkhc\.com\/index\.php\/app\/ios\/ads\/
   location: '-'
   status_code: 307
-- match: ^https?:\/\/[\w-]+\.(amemv|musical|snssdk|tiktokv)\.(com|ly)\/(api|motor)\/ad\/
+- match: ^https?:\/\/[A-Za-z0-9_-]+\.(amemv|musical|snssdk|tiktokv)\.(com|ly)\/(api|motor)\/ad\/
   location: '-'
   status_code: 307
-- match: ^https?:\/\/[\w-]+\.snssdk\.com\/.+_ad\/
+- match: ^https?:\/\/[A-Za-z0-9_-]+\.snssdk\.com\/.+_ad\/
   location: '-'
   status_code: 307
-- match: ^https?:\/\/[\w-]+\.snssdk\.com\/motor\/operation\/activity\/display\/config\/V2\/
+- match: ^https?:\/\/[A-Za-z0-9_-]+\.snssdk\.com\/motor\/operation\/activity\/display\/config\/V2\/
   location: '-'
   status_code: 307
 - match: ^https?:\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\/img\/ad\.union\.api\/

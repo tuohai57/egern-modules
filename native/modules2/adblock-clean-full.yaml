@@ -1,4 +1,3 @@
-# Egern 原生模块 · body 已内联，无外部依赖
 name: 广告拦截&净化合集
 description: (支持约730款APP/小程序)针对部分APP和小程序广告进行拦截，某些APP要清除缓存或者重新安装拦截广告才会生效！规则明细可以查看本插件的注释
 author: 奶思[https://github.com/fmz200]
@@ -9977,7 +9976,7 @@ url_rewrites:
 - match: ^https?:\/\/open3\.vistastory\.com\/v\d\/api.*get_popup
   location: '-'
   status_code: 307
-- match: ^https?:\/\/res\.kfc\.com.\cn\/advertisement\/
+- match: ^https?:\/\/res\.kfc\.com\.cn\/advertisement\/
   location: '-'
   status_code: 307
 - match: ^https?:\/\/p\.kuaidi100\.com\/mobile\/mobileapi\.do
@@ -10879,10 +10878,10 @@ url_rewrites:
 - match: ^https?:\/\/zjdr666\.com\/zjdr\.php\/v\d\/(version|top_notice\?|advert\?position=[^2]+)
   location: '-'
   status_code: 307
-- match: ^https?:\/\/[\w-]+\.amemv\.com\/aweme\/v\d\/ad\/
+- match: ^https?:\/\/[A-Za-z0-9_-]+\.amemv\.com\/aweme\/v\d\/ad\/
   location: '-'
   status_code: 307
-- match: ^https?:\/\/[\w-]+\.snssdk\.com\/.+_ad\/
+- match: ^https?:\/\/[A-Za-z0-9_-]+\.snssdk\.com\/.+_ad\/
   location: '-'
   status_code: 307
 - match: ^https?:\/\/api\.izuiyou\.com\/ad\/
@@ -13950,7 +13949,7 @@ map_locals:
 - match: ^https?:\/\/restapi\.iyunmai\.com\/api\/ios\/ad\/
   status_code: 200
   body: ' '
-- match: ^https:\/\/rr[\w-]+\.googlevideo\.com\/initplayback\?
+- match: ^https:\/\/rr[A-Za-z0-9_-]+\.googlevideo\.com\/initplayback\?
   status_code: 200
   headers:
     Content-Type: application/json
@@ -14622,7 +14621,7 @@ scriptings:
     body_required: true
 - http_response:
     name: 酷我音乐
-    match: ^https?:\/\/vip1\.kuwo\.cn\/vip\/(enc\/user\/vip\?
+    match: ^https?:\/\/vip1\.kuwo\.cn\/vip\/enc\/user\/vip\?
     script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/baa68fb537c15aa6.js
     body_required: true
 - http_response:
@@ -14978,11 +14977,6 @@ scriptings:
     body_required: true
 - http_response:
     name: 知乎移除回答详情页推广
-    match: ^https:\/\/api\.zhihu\.com\/questions\/\d+(?:\/answers|\/feeds|\?
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/4b37df660f451283.js
-    body_required: true
-- http_response:
-    name: 知乎移除回答详情页推广
     match: ^https:\/\/www\.zhihu\.com\/api\/v4\/(?:articles|answers)\/\d+\/recommendations?\?
     script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/4b37df660f451283.js
     body_required: true
@@ -15228,42 +15222,6 @@ scriptings:
     script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/ade5dea5f975a34c.js
     body_required: true
 - http_response:
-    name: NetEaseCloudMusic_mian
-    match: ^https?:\/\/(ipv4|interface\d?)\.music\.163\.com\/e?api\/(batch|v\d\/resource\/comment\/floor\/get)
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/acfbd64c44f84479.js
-    body_required: true
-    binary_body: true
-- http_response:
-    name: NetEaseCloudMusic_tab
-    match: ^https?:\/\/(ipv4|interface\d?)\.music\.163\.com\/e?api\/link\/home\/framework\/tab
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/acfbd64c44f84479.js
-    body_required: true
-    binary_body: true
-- http_response:
-    name: NetEaseCloudMusic_home
-    match: ^https?:\/\/(ipv4|interface\d?)\.music\.163\.com\/e?api\/(homepage\/block\/page|link\/page\/rcmd\/(resource\/show|block\/resource\/multi\/refresh))
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/acfbd64c44f84479.js
-    body_required: true
-    binary_body: true
-- http_response:
-    name: NetEaseCloudMusic_fx
-    match: ^https?:\/\/(ipv4|interface\d?)\.music\.163\.com\/e?api\/link\/page\/discovery\/resource\/show
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/acfbd64c44f84479.js
-    body_required: true
-    binary_body: true
-- http_response:
-    name: NetEaseCloudMusic_mybarad
-    match: ^https?:\/\/(ipv4|interface\d?)\.music\.163\.com\/e?api\/link\/position\/show\/resource
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/acfbd64c44f84479.js
-    body_required: true
-    binary_body: true
-- http_response:
-    name: NetEaseCloudMusic_foll
-    match: ^https?:\/\/(ipv4|interface\d?)\.music\.163\.com\/e?api\/user\/follow\/users\/mixed\/get
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/acfbd64c44f84479.js
-    body_required: true
-    binary_body: true
-- http_response:
     name: UnblockURLinWeChat-解除微信链接限制
     match: ^https\:\/\/(weixin110\.qq|security.wechat)\.com\/cgi-bin\/mmspamsupport-bin\/newredirectconfirmcgi\?
     script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/7099a72f49d8324a.js
@@ -15274,104 +15232,9 @@ scriptings:
     script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/ab375287cfc4e193.js
     body_required: true
 - http_response:
-    name: 商品信息流广告
-    match: ^https:\/\/(g-)?acs\.m\.goofish\.com\/gw\/mtop\.taobao\.idlehome\.home\.nextfresh\/
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/90fb2b9141abff55.js
-    body_required: true
-- http_response:
-    name: 定位地区页面的信息流广告
-    match: ^https:\/\/(g-)?acs\.m\.goofish\.com\/gw\/mtop\.taobao\.idle\.local\.home\/
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/90fb2b9141abff55.js
-    body_required: true
-- http_response:
-    name: 个人主页
-    match: ^https:\/\/acs\.m\.goofish\.com\/gw\/mtop\.idle\.user\.page\.my\.adapter\/
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/90fb2b9141abff55.js
-    body_required: true
-- http_response:
-    name: 首页顶部频道菜单
-    match: ^https:\/\/acs\.m\.goofish\.com\/gw\/mtop\.taobao\.idlehome\.home\.circle\.list\/1\.0
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/90fb2b9141abff55.js
-    body_required: true
-- http_response:
-    name: 商品详情页周边推荐
-    match: ^https:\/\/acs\.m\.goofish\.com\/gw\/mtop\.taobao\.idle\.local\.nearby\.itemdetail\.enter\/1\.0
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/90fb2b9141abff55.js
-    body_required: true
-- http_response:
-    name: 搜索结果信息流广告
-    match: ^https:\/\/g-acs\.m\.goofish\.com\/gw\/mtop\.taobao\.idlemtopsearch\.search\/
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/90fb2b9141abff55.js
-    body_required: true
-- http_response:
-    name: 同城页横幅广告
-    match: ^https:\/\/acs\.m\.goofish\.com\/gw\/mtop\.taobao\.idle\.local\.flow\.plat\.section
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/90fb2b9141abff55.js
-    body_required: true
-- http_response:
     name: 香蕉是一种水果
     match: ^https?:\/\/.+?\.(pipi|fuli|xiang(jiao|xiang))apps\.com\/(ucp\/index|getGlobalData|(\/|)vod\/reqplay\/)
     script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/9a1a024bad000fa8.js
-    body_required: true
-- http_response:
-    name: 小红书搜索页
-    match: ^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d+\/search\/(banner|hot)_list
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/6d50baad22df9b29.js
-    body_required: true
-- http_response:
-    name: 小红书搜索页
-    match: ^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d+\/search\/(hint|trending)\?
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/6d50baad22df9b29.js
-    body_required: true
-- http_response:
-    name: 小红书搜索页
-    match: ^https?:\/\/(so|edith)\.xiaohongshu\.com\/api\/sns\/v\d+\/search\/notes\?
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/6d50baad22df9b29.js
-    body_required: true
-- http_response:
-    name: 小红书开屏广告
-    match: ^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d+\/system_service\/config\?
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/6d50baad22df9b29.js
-    body_required: true
-- http_response:
-    name: 小红书开屏广告
-    match: ^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d+\/system_service\/splash_config
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/6d50baad22df9b29.js
-    body_required: true
-- http_response:
-    name: 小红书详情页
-    match: ^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d+\/note\/widgets
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/6d50baad22df9b29.js
-    body_required: true
-- http_response:
-    name: 小红书图片视频水印
-    match: ^https?:\/\/(edith|rec|www)\.xiaohongshu\.com\/api\/sns\/v\d+\/note\/(imagefeed|live_photo\/save)
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/6d50baad22df9b29.js
-    body_required: true
-- http_response:
-    name: 小红书图片视频水印
-    match: ^https?:\/\/(edith|rec|www)\.xiaohongshu\.com\/api\/sns\/v\d+\/(followfeed|homefeed)\?
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/6d50baad22df9b29.js
-    body_required: true
-- http_response:
-    name: 小红书图片视频水印
-    match: ^https?:\/\/(edith|rec|www)\.xiaohongshu\.com\/api\/sns\/(v2\/note\/feed|v3\/note\/videofeed)\?
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/6d50baad22df9b29.js
-    body_required: true
-- http_response:
-    name: 小红书图片视频水印
-    match: ^https?:\/\/(edith|rec|www)\.xiaohongshu\.com\/api\/sns\/(v4\/note\/videofeed|v10\/note\/video\/save)\?
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/6d50baad22df9b29.js
-    body_required: true
-- http_response:
-    name: 小红书评论区去水印存储
-    match: ^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/(v5\/note\/comment\/list|v3\/note\/comment\/sub_comments)\?
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/6d50baad22df9b29.js
-    body_required: true
-- http_response:
-    name: 小红书评论区去水印下载
-    match: ^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/v1\/interaction\/comment\/video\/download\?
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/6d50baad22df9b29.js
     body_required: true
 - http_response:
     name: 小芒APP主页广告
@@ -15442,66 +15305,6 @@ scriptings:
     name: 招商证券去广告
     match: ^https:\/\/marketing\.cmschina\.com\/mkt\/api\/v1\?.*
     script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/c487f31ebe0edac2.js
-    body_required: true
-- http_response:
-    name: 知乎移除首页推广
-    match: ^https:\/\/(?:api|page-info)\.zhihu\.com\/(?:answers|articles)\/v2\/\d+
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/4b37df660f451283.js
-    body_required: true
-- http_response:
-    name: 知乎移除首页推广
-    match: ^https:\/\/api\.zhihu\.com\/commercial_api\/app_float_layer
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/4b37df660f451283.js
-    body_required: true
-- http_response:
-    name: 知乎移除首页推广
-    match: ^https:\/\/api\.zhihu\.com\/feed\/render\/tab\/config\?
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/4b37df660f451283.js
-    body_required: true
-- http_response:
-    name: 知乎移除首页推广
-    match: ^https:\/\/api\.zhihu\.com\/(?:moments_v3|topstory\/hot-lists\/total|topstory\/recommend)
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/4b37df660f451283.js
-    body_required: true
-- http_response:
-    name: 知乎精简顶部标签
-    match: ^https:\/\/api\.zhihu\.com\/root\/tab
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/4b37df660f451283.js
-    body_required: true
-- http_response:
-    name: 知乎移除首页推广
-    match: ^https:\/\/api\.zhihu\.com\/v2\/topstory\/hot-lists\/everyone-seeing\?
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/4b37df660f451283.js
-    body_required: true
-- http_response:
-    name: 知乎移除会员页面推广
-    match: ^https:\/\/api\.zhihu\.com\/bazaar\/vip_tab\/header\?
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/4b37df660f451283.js
-    body_required: true
-- http_response:
-    name: 知乎移除回答详情页推广
-    match: ^https:\/\/api\.zhihu\.com\/next-(?:bff|data|render)
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/4b37df660f451283.js
-    body_required: true
-- http_response:
-    name: 知乎移除回答详情页推广
-    match: ^https:\/\/api\.zhihu\.com\/questions\/\d+(?:\/answers|\/feeds|\?
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/4b37df660f451283.js
-    body_required: true
-- http_response:
-    name: 知乎移除回答详情页推广
-    match: ^https:\/\/www\.zhihu\.com\/api\/v4\/(?:articles|answers)\/\d+\/recommendations?\?
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/4b37df660f451283.js
-    body_required: true
-- http_response:
-    name: 知乎拦截服务器推送配置
-    match: ^https:\/\/appcloud2\.zhihu\.com\/v3\/config
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/4b37df660f451283.js
-    body_required: true
-- http_response:
-    name: 知乎拦截服务器推送配置
-    match: ^https:\/\/m-cloud\.zhihu\.com\/api\/cloud\/config\/all\?
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/4b37df660f451283.js
     body_required: true
 - http_response:
     name: 中国国际航空

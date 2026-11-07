@@ -1,6 +1,3 @@
-# Egern 原生模块 · 由 Loon/Surge 格式转换
-# 源: https://github.com/kokoryh/Sparkle/raw/refs/heads/master/release/surge/module/bilibili.sgmodule
-# 源格式: sgmodule
 name: 哔哩哔哩增强
 description: 拜托，没有广告的哔哩哔哩真的超酷的
 rules:

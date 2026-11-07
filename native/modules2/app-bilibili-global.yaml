@@ -1,4 +1,3 @@
-# Egern 原生模块 · body 已内联，无外部依赖
 name: '📺 BiliBili: 🌐 Global'
 description: 哔哩哔哩：全球模式\n中国站自动线路及全区搜索
 author: VirgilClyne[https://github.com/VirgilClyne]
@@ -109,4 +108,3 @@ mitm:
   - api.bilibili.com
   - api.biliapi.net
   - grpc.biliapi.net
-url_rewrites: []

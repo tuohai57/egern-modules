@@ -1,5 +1,3 @@
-# Egern 原生模块 · 由 Surge 格式转换
-# 源: https://github.com/fmz200/wool_scripts/blob/main/Surge/module/split/partZ/ByteDance.sgmodule
 name: 字节跳动
 description: 某些APP要清除缓存或者重新安装拦截广告才会生效！
 author: 奶思
@@ -66,10 +64,10 @@ rules:
     match: s3a.pstatp.com
     policy: REJECT
 url_rewrites:
-- match: ^https?:\/\/[\w-]+\.amemv\.com\/aweme\/v\d\/ad\/
+- match: ^https?:\/\/[A-Za-z0-9_-]+\.amemv\.com\/aweme\/v\d\/ad\/
   location: '-'
   status_code: 307
-- match: ^https?:\/\/[\w-]+\.snssdk\.com\/.+_ad\/
+- match: ^https?:\/\/[A-Za-z0-9_-]+\.snssdk\.com\/.+_ad\/
   location: '-'
   status_code: 307
 map_locals:

@@ -1,4 +1,3 @@
-# Egern 原生模块 · body 已内联，无外部依赖
 name: '📺 BiliBili: 🛡️ ADBlock'
 description: 哔哩哔哩：去广告\n自定义去除APP内界面元素
 author: ClydeTime[https://github.com/ClydeTime],VirgilClyne[https://github.com/VirgilClyne],app2smile[https://github.com/app2smile],RuCu6[https://github.com/RuCu6],Maasea[https://github.com/Maasea]
@@ -140,4 +139,3 @@ mitm:
   - cm.bilibili.com
   - adtrack.qianwen.com
   - tkio-redirect.solar-engine.com
-url_rewrites: []

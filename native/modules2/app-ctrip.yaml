@@ -1,6 +1,3 @@
-# Egern 原生模块 · 由 Loon/Surge 格式转换
-# 源: https://github.com/tuohai57/egern-mirror/blob/main/modules/fmz200/partX/Ctrip.sgmodule
-# 源格式: sgmodule
 name: 携程
 description: 某些APP要清除缓存或者重新安装拦截广告才会生效！
 author: 奶思

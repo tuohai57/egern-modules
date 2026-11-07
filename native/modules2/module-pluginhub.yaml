@@ -2,19 +2,6 @@ name: Loon&Surge 2 Egern
 description: 使可莉插件中心等部分Loon或Surge插件站点安装时直接跳转Egern, 最低版本Egern v2.18.0
 author: https://hub.kelee.one, https://kelvinlab.wuyra.com, https://loonlab.103516.xyz/Plugin, https://surge.qingr.moe
 icon: https://hub.kelee.one/IMG/Web/favicon_32px.ico
-# open_url: 
-# - https://hub.kelee.one
-# - https://kelvinlab.wuyra.com
-# - https://loonlab.103516.xyz/Plugin
-# - https://surge.qingr.moe
-# homepage: 
-# - https://hub.kelee.one
-# - https://kelvinlab.wuyra.com
-# - https://loonlab.103516.xyz/Plugin
-# - https://surge.qingr.moe
-# icon: 
-# manual: 
-
 body_rewrites:
 - response_regex:
     match: https://hub\.kelee\.one/(?:Lpx_)?list\.json
@@ -40,11 +27,10 @@ body_rewrites:
     match: https://surge\.qingr\.moe/
     find: href="surge:///install-module\?url=
     replace: href="egern:///modules/new?url=
-
 mitm:
   hostnames:
     includes:
-      - hub.kelee.one
-      - kelvinlab.wuyra.com
-      - loonlab.103516.xyz
-      - surge.qingr.moe
+    - hub.kelee.one
+    - kelvinlab.wuyra.com
+    - loonlab.103516.xyz
+    - surge.qingr.moe

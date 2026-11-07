@@ -1,4 +1,3 @@
-# Egern 原生模块 · 远程 body 引用已转为 reject 特殊值
 name: APP启动页去广告ultra+
 description: APP启动页去广告融合ultra+
 author: Mixed
@@ -248,7 +247,7 @@ url_rewrites:
 - match: ^https?:\/\/res\.mi\.baidu\.com\/imeres\/ime-res\/advertisement\/files\/.+\.jpg
   location: _
   status_code: 307
-- match: ^https?:\/\/res\.kfc\.com.\cn\/advertisement\/
+- match: ^https?:\/\/res\.kfc\.com\.cn\/advertisement\/
   location: _
   status_code: 307
 - match: ^https?:\/\/res-release\.wuta-cam\.com\/json\/ads_component_cache\.json
@@ -1268,10 +1267,10 @@ url_rewrites:
 - match: ^https?:\/\/[a-zA-Z0-9-]+(\.[a-zA-Z0-9-]+){1,3}(:\d+)?\/api\/v\d\/advert
   location: _
   status_code: 307
-- match: ^https?:\/\/[\w-]+\.snssdk\.com\/.+_ad\/
+- match: ^https?:\/\/[A-Za-z0-9_-]+\.snssdk\.com\/.+_ad\/
   location: _
   status_code: 307
-- match: ^https?:\/\/[\w-]+\.amemv\.com\/aweme\/v\d\/ad\/
+- match: ^https?:\/\/[A-Za-z0-9_-]+\.amemv\.com\/aweme\/v\d\/ad\/
   location: _
   status_code: 307
 - match: ^https?:\/\/[\d\.]+:\d{5}\/\?cmd=indexes
@@ -2141,16 +2140,16 @@ url_rewrites:
 - match: ^https?://\w+\.kakamobi\.cn/api/open/v\d/advert-sdk/
   location: _
   status_code: 307
-- match: ^https?://[\w-]+\.snssdk\.com/motor/operation/activity/display/config/V2/
+- match: ^https?://[A-Za-z0-9_-]+\.snssdk\.com/motor/operation/activity/display/config/V2/
   location: _
   status_code: 307
-- match: ^https?://[\w-]+\.snssdk\.com/.+_ad/
+- match: ^https?://[A-Za-z0-9_-]+\.snssdk\.com/.+_ad/
   location: _
   status_code: 307
-- match: ^https?://[\w-]+\.amemv\.com/aweme/v\d/ad/
+- match: ^https?://[A-Za-z0-9_-]+\.amemv\.com/aweme/v\d/ad/
   location: _
   status_code: 307
-- match: ^https?://[\w-]+\.(amemv|musical|snssdk|tiktokv)\.(com|ly)/(api|motor)/ad/
+- match: ^https?://[A-Za-z0-9_-]+\.(amemv|musical|snssdk|tiktokv)\.(com|ly)/(api|motor)/ad/
   location: _
   status_code: 307
 - match: ^https?://4gimg\.map\.qq\.com/mwaSplash/
@@ -5162,27 +5161,12 @@ scriptings:
     script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/0726ade0bc75c193.js
     body_required: true
 - http_response:
-    name: 123pan
-    match: ^https?:\/\/www\.123pan\.com\/s\/[
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/2f2f957b87e7d8f5.js
-    body_required: true
-- http_response:
     name: caiyun_json
     match: ^https?:\/\/wrapper\.cyapi\.cn\/v\d\/activity
     script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/023ff898ae3adb94.js
     body_required: true
 - http_response:
     name: weibo_json
-    match: ^https?:\/\/weibointl\.api\.weibo\.cn\/portal\.php\?
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/da5336567aadc8f7.js
-    body_required: true
-- http_response:
-    name: weibo_json2
-    match: ^https?:\/\/weibointl\.api\.weibo\.cn\/portal\.php\?
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/da5336567aadc8f7.js
-    body_required: true
-- http_response:
-    name: weibo_json3
     match: ^https?:\/\/weibointl\.api\.weibo\.cn\/portal\.php\?
     script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/da5336567aadc8f7.js
     body_required: true
@@ -5213,7 +5197,7 @@ scriptings:
     body_required: true
 - http_response:
     name: kuwo2
-    match: ^https?:\/\/vip1\.kuwo\.cn\/vip\/(enc\/user\/vip\?
+    match: ^https?:\/\/vip1\.kuwo\.cn\/vip\/enc\/user\/vip\?
     script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/baa68fb537c15aa6.js
     body_required: true
 - http_response:
@@ -5372,11 +5356,6 @@ scriptings:
     script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/7733ced46e2fb451.js
     body_required: true
 - http_response:
-    name: quark2
-    match: ^https?:\/\/open-cms-api\.(uc|quark)\.cn\/open-cms
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/7733ced46e2fb451.js
-    body_required: true
-- http_response:
     name: pixivAds
     match: ^https?:\/\/oauth\.secure\.pixiv\.net\/(auth\/token)
     script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/1b1d2cdbef6f4777.js
@@ -5454,11 +5433,6 @@ scriptings:
     name: ddxq3
     match: ^https?:\/\/maicai\.api\.ddxq\.mobi\/homeApi\/(?>bottomNavi|homeFlowDetail)
     script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/b569be05ea8c8d67.js
-    body_required: true
-- http_response:
-    name: qidian
-    match: ^https?:\/\/magev6\.if\.qidian\.com\/argus\/api\/(v4\/client\/getsplashscreen|v2\/deeplink\/geturl|v1\/(client\/getconf|adv\/getadvlistbatch\?
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/101dc7ec08bc7df2.js
     body_required: true
 - http_response:
     name: weibo_json6
@@ -6175,11 +6149,6 @@ scriptings:
     script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/304ba13df67a42cf.js
     body_required: true
 - http_response:
-    name: coolapk7
-    match: ^https?:\/\/api.coolapk.com\/v6\/main\/init
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/304ba13df67a42cf.js
-    body_required: true
-- http_response:
     name: coolapk8
     match: ^https?:\/\/api.coolapk.com\/v6\/main\/indexV8
     script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/304ba13df67a42cf.js
@@ -6609,11 +6578,6 @@ scriptings:
     script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/c487f31ebe0edac2.js
     body_required: true
 - http_response:
-    name: qidian3
-    match: ^https:\/\/magev6\.if\.qidian\.com\/argus\/api\/(v4\/client\/getsplashscreen|v2\/(deeplink\/geturl|dailyrecommend\/getdailyrecommend)|v1\/(client\/getconf$|bookshelf\/getHoverAdv|adv\/getadvlistbatch\?
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/101dc7ec08bc7df2.js
-    body_required: true
-- http_response:
     name: airchina
     match: ^https:\/\/m\.airchina\.com\.cn\/airchina\/gateway\/v\d(\.\d)*\/api\/services
     script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/73a17ddebebbc275.js
@@ -6711,11 +6675,6 @@ scriptings:
     name: zheye.min12
     match: ^https:\/\/api\.zhihu\.com\/questions\/\d+\/feeds?
     script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/646bbecb09393633.js
-    body_required: true
-- http_response:
-    name: zhihu5
-    match: ^https:\/\/api\.zhihu\.com\/questions\/\d+(\/answers|\/feeds|\?
-    script_url: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@8fc1da21596f39e6e6c452c11c23741ce150ec99/native/scripts/4b37df660f451283.js
     body_required: true
 - http_response:
     name: zhihu6

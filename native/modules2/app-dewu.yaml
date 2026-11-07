@@ -1,6 +1,3 @@
-# Egern 原生模块 · 由 Loon/Surge 格式转换
-# 源: https://cdn.jsdelivr.net/gh/tuohai57/egern-modules@main/modules/kelee/kelee-得物去广告-97b49486.lpx
-# 源格式: lpx
 name: 得物去广告
 description: 移除开屏广告、弹窗、搜索词填充、热搜榜、猜你想搜、推荐关注、推荐信息流，精简消息中心和我的页面。
 author: 可莉🅥[https://github.com/luestr/ProxyResource/blob/main/README.md]
